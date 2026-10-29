@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Logo\00-source\" />
+      <Folder Include="Logo\01-vector\horizontal\" />
+      <Folder Include="Logo\01-vector\stacked\" />
+      <Folder Include="Logo\01-vector\symbol\" />
+      <Folder Include="Logo\01-vector\wordmark\" />
+      <Folder Include="Logo\02-png\horizontal\" />
+      <Folder Include="Logo\02-png\stacked\" />
+      <Folder Include="Logo\02-png\symbol\" />
+      <Folder Include="Logo\02-png\wordmark\" />
+      <Folder Include="Logo\03-jpg\horizontal\" />
+      <Folder Include="Logo\03-jpg\stacked\" />
+      <Folder Include="Logo\03-jpg\symbol\" />
+      <Folder Include="Logo\03-jpg\wordmark\" />
+      <Folder Include="Logo\04-app-icons\" />
+      <Folder Include="Logo\05-maui\" />
+      <Folder Include="Logo\06-photoshop\" />
+      <Folder Include="Logo\07-web\" />
+      <Folder Include="Logo\08-build\" />
+    </ItemGroup>
+
+</Project>

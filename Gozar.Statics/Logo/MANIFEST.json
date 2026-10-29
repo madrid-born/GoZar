@@ -1,0 +1,652 @@
+[
+  {
+    "file": "00-source/approved-ai-concept.png",
+    "bytes": 1047488,
+    "sha256": "b3c369a2a3c9412c0545358495183a24291dec0b538ae86a366eb85b37b4a70e"
+  },
+  {
+    "file": "00-source/gozar-master-outlined.svg",
+    "bytes": 18235,
+    "sha256": "3b4fe1a9c5c91913234bf07909a72cbb1ef5c02ad65b5dda8d5c98f6077b9244"
+  },
+  {
+    "file": "01-vector/horizontal/gozar-horizontal-mono-dark.svg",
+    "bytes": 18237,
+    "sha256": "19e8c03e8d5680ddea835aeb0f00e7a64247b7f099570df2e1f65acc0fb551c4"
+  },
+  {
+    "file": "01-vector/horizontal/gozar-horizontal-mono-white.svg",
+    "bytes": 18238,
+    "sha256": "5957f9e0640fe1d54b0b2aca9a03d68bcf396666201f2f0280467de445d4acf2"
+  },
+  {
+    "file": "01-vector/horizontal/gozar-horizontal-primary.svg",
+    "bytes": 18235,
+    "sha256": "3b4fe1a9c5c91913234bf07909a72cbb1ef5c02ad65b5dda8d5c98f6077b9244"
+  },
+  {
+    "file": "01-vector/horizontal/gozar-horizontal-reversed.svg",
+    "bytes": 18236,
+    "sha256": "c52ac660f6765462efd8f473e1ab948ee3b6dcfbd342fff9d11141fd44395fbe"
+  },
+  {
+    "file": "01-vector/stacked/gozar-stacked-mono-dark.svg",
+    "bytes": 18229,
+    "sha256": "3f8e93b09619f16326b60731f51099f1ae1f141f275eca4dfc80dc2458e1af8e"
+  },
+  {
+    "file": "01-vector/stacked/gozar-stacked-mono-white.svg",
+    "bytes": 18230,
+    "sha256": "0eac3a7f22c95348fd339cc0a8c512089c7d1f83bdfc5e9f06a12453d9878043"
+  },
+  {
+    "file": "01-vector/stacked/gozar-stacked-primary.svg",
+    "bytes": 18227,
+    "sha256": "e65556dc5aba57291edf6c14c7d1b748bf06c102c9b7e72f1a0daea2630a6407"
+  },
+  {
+    "file": "01-vector/stacked/gozar-stacked-reversed.svg",
+    "bytes": 18228,
+    "sha256": "9dd2ab256e029d22e55bdc612ba4f478ceb95d9a31a23661d61bd8d32f1a87c8"
+  },
+  {
+    "file": "01-vector/symbol/gozar-symbol-mono-dark.svg",
+    "bytes": 1648,
+    "sha256": "6fab9e48a418e41e604d42f136a1ca225c416a40e1f8aa91e36b7a89baab35cc"
+  },
+  {
+    "file": "01-vector/symbol/gozar-symbol-mono-white.svg",
+    "bytes": 1649,
+    "sha256": "3c657f1dc154ec4b9a53e6ae7ebea1d9d1a6266cc03799bfcb09764241d6c96c"
+  },
+  {
+    "file": "01-vector/symbol/gozar-symbol-primary.svg",
+    "bytes": 1646,
+    "sha256": "9f8881eb5dca95a9a9542074932fd7b8b8b839edc22223cb02cbd0c25f81e134"
+  },
+  {
+    "file": "01-vector/symbol/gozar-symbol-reversed.svg",
+    "bytes": 1647,
+    "sha256": "7f037e9f56126bab5258796b5626bd805216eadf9bc1ead91037cde7b16f228e"
+  },
+  {
+    "file": "01-vector/wordmark/gozar-wordmark-mono-dark.svg",
+    "bytes": 16763,
+    "sha256": "8eb81191d17b04f1dc1eaa891d247a4dbcc45758f5db9a8f8775dfe2d712b14b"
+  },
+  {
+    "file": "01-vector/wordmark/gozar-wordmark-mono-white.svg",
+    "bytes": 16764,
+    "sha256": "b578d614c8e68e00f3e31f2f6e2849e4e93ebaeb7aeac55f4232aaa70b9a60b5"
+  },
+  {
+    "file": "01-vector/wordmark/gozar-wordmark-primary.svg",
+    "bytes": 16761,
+    "sha256": "8aa8694f3077dad7328cba65ff861bd0f6aa7b51de8eed14ced09c3bbb5b31d0"
+  },
+  {
+    "file": "01-vector/wordmark/gozar-wordmark-reversed.svg",
+    "bytes": 16762,
+    "sha256": "a214a53cf75333c8da165cf7c2e9bc1b3502bda107cb5ff2e50ed6a42fb116ec"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-mono-dark-1024w.png",
+    "bytes": 23206,
+    "sha256": "101bccc238e970ed1cd76697784766186cc1647ff05739df52972227dcb17ee7"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-mono-dark-2048w.png",
+    "bytes": 56864,
+    "sha256": "0343ce41aa7fa072aa56e7435c1a2f3cea7a7726ad612987914953c5d181f400"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-mono-dark-4096w.png",
+    "bytes": 149445,
+    "sha256": "b63e3c9dcec29b7fb738b39fc5df5d8ae55c533bf4d860e28fcaf0924d07ccd6"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-mono-dark-512w.png",
+    "bytes": 9895,
+    "sha256": "af9c88cde7dfcff35ecd40fde35247a93a7f97f00c84be69c0cee970e0c7f742"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-mono-white-1024w.png",
+    "bytes": 17743,
+    "sha256": "491df928dde68f9238e0af42e89c2cff2bd8a4c38e4601e428fb20a09f557d9c"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-mono-white-2048w.png",
+    "bytes": 40431,
+    "sha256": "6b313af5583835a600c4e3ad0e936b5cb5b73c9a78a52850037c32fa226443b0"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-mono-white-4096w.png",
+    "bytes": 97675,
+    "sha256": "bfcc18a80fd743e88e80f83c567cd4efb8826c54a7a44065d419887f76c86f5f"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-mono-white-512w.png",
+    "bytes": 7805,
+    "sha256": "86d4b7b841654b09a093c0762e39b6bd50a17533ad4624b5e486413695d165bd"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-primary-1024w.png",
+    "bytes": 23749,
+    "sha256": "6c2d32c737aae3530804d6a1e248b1bde284dc2252a13122ce34392985cb41bd"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-primary-2048w.png",
+    "bytes": 58250,
+    "sha256": "8af3d0b6aa3c3c202b05d50b6ddcfd7899652409c9672d67538626f5b3da2b1d"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-primary-4096w.png",
+    "bytes": 152165,
+    "sha256": "8e7096e92aa2926b0baa3fcfb0a203c090367db7f2d974cbc8757863b1bb009a"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-primary-512w.png",
+    "bytes": 10325,
+    "sha256": "a51bd6fa811a8fe9983bf36ed90038224bc028534515a185a4e0c6cb1529a07a"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-reversed-1024w.png",
+    "bytes": 22748,
+    "sha256": "09a8873b410613b5dfa0b37fe42102505efc9bdbb3b50cd871c07f2e5412e1cf"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-reversed-2048w.png",
+    "bytes": 55212,
+    "sha256": "f7c259b3755c9f3717f81eb8392a527e857fff17194dec508a207ec467f8a1f5"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-reversed-4096w.png",
+    "bytes": 145666,
+    "sha256": "7f2b5a2fd07df973609bf9ed2d707cf84bea05e6369c2559a5ef8fd57e552682"
+  },
+  {
+    "file": "02-png/horizontal/gozar-horizontal-reversed-512w.png",
+    "bytes": 9870,
+    "sha256": "aa8b4ac3345ef2655a8551631e41786f5fb41819f56df412dab4406be502930e"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-mono-dark-1024w.png",
+    "bytes": 36843,
+    "sha256": "486a24d6ffdb19f29600796b804c2e6c0ea5a11951c999dd38dd7485c0b279be"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-mono-dark-2048w.png",
+    "bytes": 94265,
+    "sha256": "1c5352c28a0906c6d928a374e80d1e083105e005f08da900d1c3d5fee6f83055"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-mono-dark-256w.png",
+    "bytes": 6820,
+    "sha256": "0039ce6f48e277f4d363723c87a4b0c1a133e9428685ebb693e7744e3b61f833"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-mono-dark-512w.png",
+    "bytes": 15172,
+    "sha256": "efbec91e81b04475f93b2f1a9855b0c022181a7fc18f95b63c86bb3b945ea752"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-mono-white-1024w.png",
+    "bytes": 27390,
+    "sha256": "2966d73ff0bb2b73e2986b68ee918be4d7bb7bd4a15dfad80c9811245b52d70a"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-mono-white-2048w.png",
+    "bytes": 65950,
+    "sha256": "4636707769e8878d18a745c0db79f8b75ee16a3362e786996cadf6897e91eebc"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-mono-white-256w.png",
+    "bytes": 5437,
+    "sha256": "ecb194c7583ee574ba8ec005843f99407a39471e5d6fee02cb895103755a26e8"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-mono-white-512w.png",
+    "bytes": 11982,
+    "sha256": "edf9b7ac67eb3b806c2b0da72bde9f69eaabb380d59c44d0eca5498cdc983d72"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-primary-1024w.png",
+    "bytes": 37503,
+    "sha256": "c2485ee59ec453ce3b8ecebdd8626984f0afa38613c4a7b2d49a4982391539aa"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-primary-2048w.png",
+    "bytes": 95160,
+    "sha256": "12012dba5767eed1e1d286ca832f74750f3ea886ab0eace530e139b32027e265"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-primary-256w.png",
+    "bytes": 7048,
+    "sha256": "ef2c9c083a1ad1864897fec9bbb3c7ce260f7eddcaaf67bd5707bd256bdc773a"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-primary-512w.png",
+    "bytes": 15687,
+    "sha256": "393e916bb22cdce2264d8294d184300b97ca441a12e86633698e921623e050c6"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-reversed-1024w.png",
+    "bytes": 35824,
+    "sha256": "259275e2df5c1204b680914a6c17869e15c5e63c5f07e849951b1d8f9f2ceeaa"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-reversed-2048w.png",
+    "bytes": 90910,
+    "sha256": "c320a4e27cf5c3803a14a9abac2c2c2936e16a3c01659c2d7cd19017c2b32eef"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-reversed-256w.png",
+    "bytes": 6781,
+    "sha256": "b2e77f0d272c2ca045e8ba1a6fae04f08fed61753a7d04facc4a149b3c71bccc"
+  },
+  {
+    "file": "02-png/stacked/gozar-stacked-reversed-512w.png",
+    "bytes": 14965,
+    "sha256": "4a8f99d81fca03e925855a9ff1f8b88a1d31f5faa9d0079577dce3458aa4e07c"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-mono-dark-1024w.png",
+    "bytes": 36829,
+    "sha256": "540ba8c1fc48fe514b008fc70a5ec889dfc5ce0e8aaff2692bedc57a701d4b58"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-mono-dark-2048w.png",
+    "bytes": 102763,
+    "sha256": "d0e1b3bff046158cad532635e0fb3c52bdfe8c1c2664a987f17adb3a42072a10"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-mono-dark-256w.png",
+    "bytes": 5599,
+    "sha256": "1d62ee49a028cd3e28ec99efeabb2c94d750d81644be8ad6ab7456e9ae0613e4"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-mono-dark-512w.png",
+    "bytes": 14130,
+    "sha256": "0768909f438da475dc448e841c00be0625e534ad0191c233700ad00c311d2708"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-mono-white-1024w.png",
+    "bytes": 23542,
+    "sha256": "2bd72da9a3f132055855e09e0b058d86cb7e4e44163123351979d4b20f1a0eed"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-mono-white-2048w.png",
+    "bytes": 57793,
+    "sha256": "8a45c6a9321f052de730c8fba05ac904aaf80a4a79aadeb4036042aa2495ffd7"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-mono-white-256w.png",
+    "bytes": 4380,
+    "sha256": "34a035b6844dc3d0c6a1f15e11542992659c336fc4241c9f9199664818033d70"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-mono-white-512w.png",
+    "bytes": 10779,
+    "sha256": "af188cc103adf5a2ee490799d8485d89f82b502a17d1e1a0b06cadcb77a86750"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-primary-1024w.png",
+    "bytes": 37947,
+    "sha256": "7e40b52f1825ec416c28a70655796a536a01c5bad02177835180a8036e77aff7"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-primary-2048w.png",
+    "bytes": 104552,
+    "sha256": "075fe378165182a14a35727175b21acaa058b512f7631b3e702b61582edc992d"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-primary-256w.png",
+    "bytes": 5993,
+    "sha256": "a6048be4bb28341e279f0f4f63c02c3950a7ceb94a6a71037c48f5cd3113d741"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-primary-512w.png",
+    "bytes": 14784,
+    "sha256": "7951e23db114197b864cd4c551b75b93ae5c8e204a704f665c22bd0bb56fc1ec"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-reversed-1024w.png",
+    "bytes": 36887,
+    "sha256": "0d1274c011d8579d12f08889835e8ad5f163420cab5518189ede2c3076fdb637"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-reversed-2048w.png",
+    "bytes": 102322,
+    "sha256": "ce3b723423f837747bd73eea25a4a3a242878ddee3ddf1fe5b0d6c43b855274f"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-reversed-256w.png",
+    "bytes": 5813,
+    "sha256": "705a7bbc94e3992650f2106662367046e1fc3609744fcb8284b820541ab8d94f"
+  },
+  {
+    "file": "02-png/symbol/gozar-symbol-reversed-512w.png",
+    "bytes": 14380,
+    "sha256": "2ea0e0913eda44acb2fbcfba9747f3ee76110291518098d48c563007356a45de"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-mono-dark-1024w.png",
+    "bytes": 22883,
+    "sha256": "cbac920ddb8df9fb27f6c85d773e6404783d7486249b9644a22effb9085b725c"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-mono-dark-2048w.png",
+    "bytes": 56093,
+    "sha256": "41341ff15e65ce23933bd711505261972c78106ee99d4d0e72c2c178f7d9bd66"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-mono-dark-4096w.png",
+    "bytes": 146480,
+    "sha256": "8ad666874f1e8c308dc2b96eb50c9c28f2a078d08dd09bd2cd2f64abe21bd840"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-mono-dark-512w.png",
+    "bytes": 9560,
+    "sha256": "9970cc1505a05ae7da92f8ba278d737417db2c5b364f1b1cd4f9f44ac5802fd9"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-mono-white-1024w.png",
+    "bytes": 17009,
+    "sha256": "ec91996a22867a923bd7a9fe889b02b03ebd3cc1ae1c0e05fbfba21d82ede8ee"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-mono-white-2048w.png",
+    "bytes": 39363,
+    "sha256": "5b9465d44cf0a6e2e5588e141cc6abfddd767674b0022fe4da07b1c036021ae0"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-mono-white-4096w.png",
+    "bytes": 93897,
+    "sha256": "33b523e74301e13a48849318a3c2390b72cf14816aef9c53d6df7ce1808d6e2c"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-mono-white-512w.png",
+    "bytes": 7543,
+    "sha256": "99f046241821be092116750c35f08a17c0f464f87c63996b0f659204d22e58f5"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-primary-1024w.png",
+    "bytes": 22883,
+    "sha256": "cbac920ddb8df9fb27f6c85d773e6404783d7486249b9644a22effb9085b725c"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-primary-2048w.png",
+    "bytes": 56093,
+    "sha256": "41341ff15e65ce23933bd711505261972c78106ee99d4d0e72c2c178f7d9bd66"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-primary-4096w.png",
+    "bytes": 146480,
+    "sha256": "8ad666874f1e8c308dc2b96eb50c9c28f2a078d08dd09bd2cd2f64abe21bd840"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-primary-512w.png",
+    "bytes": 9560,
+    "sha256": "9970cc1505a05ae7da92f8ba278d737417db2c5b364f1b1cd4f9f44ac5802fd9"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-reversed-1024w.png",
+    "bytes": 21523,
+    "sha256": "82c9a93330a016f85a3cc8c0661b7068bdd3df7a498734e776d1ca3249bbf965"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-reversed-2048w.png",
+    "bytes": 52755,
+    "sha256": "67142e81dd15503a2e90f400d2a9e44d1be239d4a607656a6c0d11a7386fb19c"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-reversed-4096w.png",
+    "bytes": 138792,
+    "sha256": "058d39d18f98a021e8545224ba540916038cf2efa549ef5601e68474d3761168"
+  },
+  {
+    "file": "02-png/wordmark/gozar-wordmark-reversed-512w.png",
+    "bytes": 9089,
+    "sha256": "016a0549b43dfd1b75bb2cd9d4bb937d41722f6c1b6baedcfc681582c4d06235"
+  },
+  {
+    "file": "03-jpg/horizontal/gozar-horizontal-mono-dark-2048w.jpg",
+    "bytes": 94135,
+    "sha256": "84681e9aa7a5c8d8c900a7395eef00674d631010684538ad6cca6ffa0f97790d"
+  },
+  {
+    "file": "03-jpg/horizontal/gozar-horizontal-mono-white-2048w.jpg",
+    "bytes": 98410,
+    "sha256": "ca4b371c36a0dcae76dee90b2d8fbc41a038c7637a7ce22e79bca6aa131827bc"
+  },
+  {
+    "file": "03-jpg/horizontal/gozar-horizontal-primary-2048w.jpg",
+    "bytes": 97680,
+    "sha256": "78a235eae63b33aeedf8a316f128ab5c744aeeefa351b9c23f3cd8487d142f02"
+  },
+  {
+    "file": "03-jpg/horizontal/gozar-horizontal-reversed-2048w.jpg",
+    "bytes": 94034,
+    "sha256": "e54a18f7a95144db5f06a0864e9ee3f5ac055f5f49d13590ea4aa0ab037231cd"
+  },
+  {
+    "file": "03-jpg/stacked/gozar-stacked-mono-dark-2048w.jpg",
+    "bytes": 156746,
+    "sha256": "f65cc8d5a5fe771095b7695aae235b926f96f694300560b4443019705b85f54d"
+  },
+  {
+    "file": "03-jpg/stacked/gozar-stacked-mono-white-2048w.jpg",
+    "bytes": 162511,
+    "sha256": "5aec3ee7aee1909039c5d3f3a2cb80f58e05fda134c9504d546860eab70ab2dd"
+  },
+  {
+    "file": "03-jpg/stacked/gozar-stacked-primary-2048w.jpg",
+    "bytes": 161268,
+    "sha256": "e0f75f324086f2af7de3d1dc8f2eb9737d686e33a77991e9fab687847955f5cc"
+  },
+  {
+    "file": "03-jpg/stacked/gozar-stacked-reversed-2048w.jpg",
+    "bytes": 155811,
+    "sha256": "39dcabca7e4315741ac594fa85f36ac206f2aae0b6f3d6ec60000179cd637184"
+  },
+  {
+    "file": "03-jpg/symbol/gozar-symbol-mono-dark-2048w.jpg",
+    "bytes": 130749,
+    "sha256": "c75c557ab81d27d852b4651eb08fa2c43cb896a16e3470e5c60707903c76b436"
+  },
+  {
+    "file": "03-jpg/symbol/gozar-symbol-mono-white-2048w.jpg",
+    "bytes": 135447,
+    "sha256": "aec7d8b8f74bddc050bbe80b461a9d1ac6b9cb8790398d91cfd1a27af9d2101a"
+  },
+  {
+    "file": "03-jpg/symbol/gozar-symbol-primary-2048w.jpg",
+    "bytes": 138857,
+    "sha256": "68a13c1108c86a23315bc254bb871437b27fdbdb7ffe9f58b127465db87e2a1a"
+  },
+  {
+    "file": "03-jpg/symbol/gozar-symbol-reversed-2048w.jpg",
+    "bytes": 129333,
+    "sha256": "d06c8eeb4ad7137446947e05268b89be4cddb1d3083de00a6b87997ba4f46b40"
+  },
+  {
+    "file": "03-jpg/wordmark/gozar-wordmark-mono-dark-2048w.jpg",
+    "bytes": 88181,
+    "sha256": "d8cec4469c798f2ce2b1e5765e0a34d5878f7b6559378b8d2e0c1d76ccfb588a"
+  },
+  {
+    "file": "03-jpg/wordmark/gozar-wordmark-mono-white-2048w.jpg",
+    "bytes": 91661,
+    "sha256": "bdd51e94cca2cb8f13dfa6145ead147da35304e493ea77cc687158d3ad5e5ecf"
+  },
+  {
+    "file": "03-jpg/wordmark/gozar-wordmark-primary-2048w.jpg",
+    "bytes": 88181,
+    "sha256": "d8cec4469c798f2ce2b1e5765e0a34d5878f7b6559378b8d2e0c1d76ccfb588a"
+  },
+  {
+    "file": "03-jpg/wordmark/gozar-wordmark-reversed-2048w.jpg",
+    "bytes": 88036,
+    "sha256": "840d401e02a9bc1619c39e640d598389dc41a4b4ba5cea168b8dd1fa890e81bd"
+  },
+  {
+    "file": "04-app-icons/gozar-app-icon-1024.png",
+    "bytes": 41985,
+    "sha256": "7c8ad8e14a6e838f2c03b7d49c4c9a655bd4f9a8e03e9c0cdb7702188416a851"
+  },
+  {
+    "file": "04-app-icons/gozar-app-icon-128.png",
+    "bytes": 2328,
+    "sha256": "0f3f22d6d6e6aa9fdbcf0ba63f5195af1ffa6ba731b70c0a78a1969eea7fa50a"
+  },
+  {
+    "file": "04-app-icons/gozar-app-icon-16.png",
+    "bytes": 371,
+    "sha256": "9ccd71e1b1c9da5151663e7509b9e245e2438c92fec0081160910f163306c20b"
+  },
+  {
+    "file": "04-app-icons/gozar-app-icon-180.png",
+    "bytes": 3467,
+    "sha256": "fbd1d6c852d94ca4c1136f3da3a94da64f9e6ad50bd19d4c935627c7fc9e3fcb"
+  },
+  {
+    "file": "04-app-icons/gozar-app-icon-192.png",
+    "bytes": 3724,
+    "sha256": "cfaa8ca70da12ba43afb6effd5f715c622031cc5e086934146c58b7a243e963d"
+  },
+  {
+    "file": "04-app-icons/gozar-app-icon-256.png",
+    "bytes": 5442,
+    "sha256": "409fe5bea780b6059c075a5ea11dcdaa0df072e14051a1556818c1aa0e906b82"
+  },
+  {
+    "file": "04-app-icons/gozar-app-icon-32.png",
+    "bytes": 657,
+    "sha256": "8f73f7a7dfd52cf33aae571ac90f9ecd2b9b386b0817367305f530c47e84ee78"
+  },
+  {
+    "file": "04-app-icons/gozar-app-icon-48.png",
+    "bytes": 918,
+    "sha256": "dccd63c98b6c1c9912c081b5506f93e9355c6fbe623a97d998ff9dfa80be284f"
+  },
+  {
+    "file": "04-app-icons/gozar-app-icon-512.png",
+    "bytes": 14609,
+    "sha256": "ce75c4f742f9b775da5484d278ed9bf37fa4a2eacc44b6ff4c900c06dbe9a439"
+  },
+  {
+    "file": "04-app-icons/gozar-app-icon-64.png",
+    "bytes": 1202,
+    "sha256": "0a47317b0ad865bc445610c1f4b403c088529c3e52b488e996e8c74501319d7f"
+  },
+  {
+    "file": "04-app-icons/gozar-app-icon-96.png",
+    "bytes": 1726,
+    "sha256": "f767b01abe13dee9a8aca6c28459981ba6675578f782f5f4c4706ebf3646bd55"
+  },
+  {
+    "file": "04-app-icons/gozar-app-icon.svg",
+    "bytes": 1565,
+    "sha256": "d0c5be850102f831a9f7464f6f5e6105a7d4ed1967049bcc6df487c7dd645869"
+  },
+  {
+    "file": "05-maui/appicon.svg",
+    "bytes": 140,
+    "sha256": "62ca7b7617054dce9a6b79f062a5f3d3860c2f72f367e96a2ab75bc7a74f57c4"
+  },
+  {
+    "file": "05-maui/appiconfg.svg",
+    "bytes": 1511,
+    "sha256": "ba1632fc0f0a5bde5fff8abe0c1dea6750ff917f466ef12a0981a2256b21b4b9"
+  },
+  {
+    "file": "05-maui/splash.svg",
+    "bytes": 1646,
+    "sha256": "9f8881eb5dca95a9a9542074932fd7b8b8b839edc22223cb02cbd0c25f81e134"
+  },
+  {
+    "file": "06-photoshop/gozar-horizontal-layered.psd",
+    "bytes": 10504448,
+    "sha256": "4825fd9243f56fa66d93a680543a418e5168b16aa0484fdd0f2b9baab054d8bb"
+  },
+  {
+    "file": "06-photoshop/gozar-symbol-layered.psd",
+    "bytes": 4278850,
+    "sha256": "cccc1a0289d9ae308b495fc3604ad638b9fe166738c343a1e17f57c916104321"
+  },
+  {
+    "file": "07-web/apple-touch-icon.png",
+    "bytes": 6607,
+    "sha256": "ccac4f38d736d5deba4887ea3194ed23461c1dadbe6c84a2125587ca2ff18778"
+  },
+  {
+    "file": "07-web/favicon.ico",
+    "bytes": 20714,
+    "sha256": "45939376e8627ffc6d34bd416d32ad6ba57f17b2ca9f4787d00d1664572c07ac"
+  },
+  {
+    "file": "07-web/gozar-horizontal.webp",
+    "bytes": 10486,
+    "sha256": "5ba3bdcf373fad08db22a29fe9fa9dfb049a8ed90483eb4c58a577c46504428c"
+  },
+  {
+    "file": "07-web/gozar-stacked.webp",
+    "bytes": 14396,
+    "sha256": "fe618caf008c7e9ed1855bb3ff16382a3effdd4f0d7da9006c6f699bb0f54c20"
+  },
+  {
+    "file": "07-web/gozar-symbol.webp",
+    "bytes": 10554,
+    "sha256": "404d4054390390a54181d9196736225e304cb83c2869874b0712465b635404f3"
+  },
+  {
+    "file": "07-web/gozar-wordmark.webp",
+    "bytes": 9350,
+    "sha256": "0796db094213e29dece8ee614089ac2b32aeb0903a10833cc29ccd133af083c8"
+  },
+  {
+    "file": "07-web/icon-192.png",
+    "bytes": 7122,
+    "sha256": "6f11ea87354a7a77b99ced3c8ae4edacb09b6d63d8367e919859f8003e721e81"
+  },
+  {
+    "file": "07-web/icon-512.png",
+    "bytes": 20361,
+    "sha256": "e50ed0463ac8f821b2a7058547e3269f969472164dc9fae1b8eb9bfefe7f5318"
+  },
+  {
+    "file": "07-web/site.webmanifest",
+    "bytes": 359,
+    "sha256": "32552ccde5dc675983f508787fc13f3f98c51395edda18db80bf8157f48f052f"
+  },
+  {
+    "file": "08-build/build.py",
+    "bytes": 7628,
+    "sha256": "006ed1ba7e8e863a4c65b26be53e1e95ae0978990d690596b558d17ab9f710b9"
+  },
+  {
+    "file": "08-build/finish.py",
+    "bytes": 7626,
+    "sha256": "fd6bdc4d3a8c6e6f46b75742fb708c9a4e72aee52dd27a1af0149d809afe5ad0"
+  },
+  {
+    "file": "08-build/render.cjs",
+    "bytes": 489,
+    "sha256": "c2c7eea04d33b98b2952a0396b4e23b9011d8a83c530549c3be2520b3cdbe6f1"
+  },
+  {
+    "file": "palette.json",
+    "bytes": 127,
+    "sha256": "6e401b932d85e678c88612532dc3f8caa2b6ea144c73c4c58c88bdf47022fed4"
+  },
+  {
+    "file": "PREVIEW.jpg",
+    "bytes": 131971,
+    "sha256": "5c30439fd166a511acc294f8c03d49d4d268ca1ac9080c814f891203b4e2b238"
+  },
+  {
+    "file": "README.md",
+    "bytes": 3705,
+    "sha256": "1730f72500ac6fb1a2b7247b6e10b485d98eaf5b2d0d7e4b7475bf433652ae04"
+  }
+]
