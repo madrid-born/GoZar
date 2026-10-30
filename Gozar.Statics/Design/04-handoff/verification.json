@@ -1,0 +1,190 @@
+{
+  "checkedAt": "2026-10-30T11:50:05.195Z",
+  "browser": "Microsoft Edge / Playwright",
+  "screens": [
+    {
+      "id": "welcome",
+      "title": "01 · Welcome",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 844
+    },
+    {
+      "id": "cities",
+      "title": "02 · Choose a city",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 844
+    },
+    {
+      "id": "goals",
+      "title": "03 · Learning goals",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 844
+    },
+    {
+      "id": "anchors",
+      "title": "04 · Important places",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 947
+    },
+    {
+      "id": "placement",
+      "title": "05 · Familiarity check",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 952
+    },
+    {
+      "id": "home",
+      "title": "06 · Today",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 1134
+    },
+    {
+      "id": "path",
+      "title": "07 · Learning path",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 948
+    },
+    {
+      "id": "lesson",
+      "title": "08 · Meet a place",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 898
+    },
+    {
+      "id": "quiz",
+      "title": "09 · Recognition question",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 925
+    },
+    {
+      "id": "correct",
+      "title": "10 · Correct feedback",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 844
+    },
+    {
+      "id": "incorrect",
+      "title": "11 · Helpful correction",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 844
+    },
+    {
+      "id": "locate",
+      "title": "12 · Locate on the map",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 996
+    },
+    {
+      "id": "complete",
+      "title": "13 · Session complete",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 879
+    },
+    {
+      "id": "map",
+      "title": "14 · Your growing map",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 997
+    },
+    {
+      "id": "place",
+      "title": "15 · Place details",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 1089
+    },
+    {
+      "id": "route",
+      "title": "16 · Journey exercise",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 854
+    },
+    {
+      "id": "reviews",
+      "title": "17 · Due reviews",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 1004
+    },
+    {
+      "id": "stories",
+      "title": "18 · City stories",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 908
+    },
+    {
+      "id": "story",
+      "title": "19 · Landmark story",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 998
+    },
+    {
+      "id": "profile",
+      "title": "20 · Progress & streak",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 983
+    },
+    {
+      "id": "settings",
+      "title": "21 · Preferences",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 986
+    },
+    {
+      "id": "offline",
+      "title": "22 · Offline session",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 945
+    },
+    {
+      "id": "empty",
+      "title": "23 · First-day map",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 933
+    },
+    {
+      "id": "error",
+      "title": "24 · Download interrupted",
+      "viewport": 390,
+      "scroll": 390,
+      "height": 844
+    }
+  ],
+  "checks": [
+    "24 light screens + 1 dark screen rendered",
+    "4 desktop adaptations rendered",
+    "No horizontal overflow at 390px and 320px",
+    "Wrong and correct answer feedback",
+    "Location question completion",
+    "Add and remove personal anchor",
+    "Reorder route and check",
+    "Offline reconnect simulation",
+    "No JavaScript runtime errors"
+  ],
+  "limitations": [
+    "Concept only: sample counts and simplified sessions, no server or real authentication",
+    "Maps are illustrative diagrams, not navigation geometry",
+    "No MAUI compilation or native device testing"
+  ]
+}

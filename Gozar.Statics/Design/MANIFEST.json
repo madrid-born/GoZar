@@ -1,0 +1,397 @@
+[
+  {
+    "file": "00-assets/logo.svg",
+    "bytes": 18235,
+    "sha256": "3b4fe1a9c5c91913234bf07909a72cbb1ef5c02ad65b5dda8d5c98f6077b9244"
+  },
+  {
+    "file": "00-assets/symbol.svg",
+    "bytes": 1646,
+    "sha256": "9f8881eb5dca95a9a9542074932fd7b8b8b839edc22223cb02cbd0c25f81e134"
+  },
+  {
+    "file": "01-prototype/app.js",
+    "bytes": 40069,
+    "sha256": "2fb95e57433abb1a960ae716532c4cb4de5df22807d59cb8a58ff90f984541ba"
+  },
+  {
+    "file": "01-prototype/gallery.html",
+    "bytes": 4371,
+    "sha256": "3ab31adb14ec98ca01508dacf954e9677cbe571e436dbcdac51583cf2fb128c2"
+  },
+  {
+    "file": "01-prototype/index.html",
+    "bytes": 1867,
+    "sha256": "b9642daca7284380ae915c7e527c6bf2f9689849f4053a0cc01ec0c8758764e7"
+  },
+  {
+    "file": "01-prototype/style.css",
+    "bytes": 15895,
+    "sha256": "bb97dcf6dcb8e5a251b03718f5b84658098f959a254c0dc842e2aa5d44648ea1"
+  },
+  {
+    "file": "02-screens/desktop/home-1440.png",
+    "bytes": 193265,
+    "sha256": "1258a0b10383c86667f89ca4d110541dbe848f0afa58d1fb7fd076cf480b8afc"
+  },
+  {
+    "file": "02-screens/desktop/lesson-1440.png",
+    "bytes": 163515,
+    "sha256": "88b2429dbd42838c15eafa9fcbdc20ba0bdc57ae79f983431a3b020c407ae9d0"
+  },
+  {
+    "file": "02-screens/desktop/map-1440.png",
+    "bytes": 152981,
+    "sha256": "fcf2240eb3cb7f69e8c51710a17ecbd926af69ea38762042cf7ef9fb1458aa3a"
+  },
+  {
+    "file": "02-screens/desktop/profile-1440.png",
+    "bytes": 102304,
+    "sha256": "23657514e9ec9919a3533cb34403aa806b0f7c26b596be068f7c6894357a8bb8"
+  },
+  {
+    "file": "02-screens/jpg/01-welcome.jpg",
+    "bytes": 113626,
+    "sha256": "22b3324fac96afa32bc5e1ad6a57a22fba1b79045d2553fc50acba4f7e2056f8"
+  },
+  {
+    "file": "02-screens/jpg/02-cities.jpg",
+    "bytes": 113320,
+    "sha256": "679a8e2ae1dfe3b700f056a976c83d974287a022c0238f6e12b1afda4a874e1b"
+  },
+  {
+    "file": "02-screens/jpg/03-goals.jpg",
+    "bytes": 118695,
+    "sha256": "5322455814b9220bfb6ce756e78acd2cc7c67a9d0ad2c3454c22d335d7ccbf7e"
+  },
+  {
+    "file": "02-screens/jpg/04-anchors.jpg",
+    "bytes": 152892,
+    "sha256": "5a69158be6baf5b7154f28c9d449ce6f31a6d90443496e1fc34204e560ca9a79"
+  },
+  {
+    "file": "02-screens/jpg/05-placement.jpg",
+    "bytes": 135755,
+    "sha256": "d0a754f0b27b11f65717b0c9959e85943a4636938baa57d7f46b9bc256676c34"
+  },
+  {
+    "file": "02-screens/jpg/06-home.jpg",
+    "bytes": 182971,
+    "sha256": "6dd058b9b7283e4dfa64666a3fcc077c5c7b41256f088f1da3fe1cb23b5c67f4"
+  },
+  {
+    "file": "02-screens/jpg/07-path.jpg",
+    "bytes": 117900,
+    "sha256": "b5fedf2931e6d107fbddb83094f2de2c528fd9a96d84586108b76fa2c59e8be6"
+  },
+  {
+    "file": "02-screens/jpg/08-lesson.jpg",
+    "bytes": 145717,
+    "sha256": "ba6ef3273155a65ebb0ec0066fff6643170428edf353f8d76806d8d43ead5e66"
+  },
+  {
+    "file": "02-screens/jpg/09-quiz.jpg",
+    "bytes": 127614,
+    "sha256": "0930ebd854d53bdb57f1fc1f6eefa0779d20b6c41f714f74a742f94a6542694b"
+  },
+  {
+    "file": "02-screens/jpg/10-correct.jpg",
+    "bytes": 115282,
+    "sha256": "3c3a416a6861f81f3ecd2a39703537e2223857a78367054368173eb96d00ccdc"
+  },
+  {
+    "file": "02-screens/jpg/11-incorrect.jpg",
+    "bytes": 122289,
+    "sha256": "c3588b7dfcf832b8bd00e700ae51fc8291f2a9b4b7fdb10ce044ff09c473fe39"
+  },
+  {
+    "file": "02-screens/jpg/12-locate.jpg",
+    "bytes": 145768,
+    "sha256": "68f0475430855de43b85fdd1ae2f3dfe149b5ccccaf4371fa9de7db888730dc7"
+  },
+  {
+    "file": "02-screens/jpg/13-complete.jpg",
+    "bytes": 120713,
+    "sha256": "0b771bc7f41e9a154b7666b8c212032a4fbadd9ef9744527e9549188863390b1"
+  },
+  {
+    "file": "02-screens/jpg/14-map.jpg",
+    "bytes": 138204,
+    "sha256": "ac220aa6c1fbd77eb2591eae224f3f8d5e2ce93e428b2bcd040a3446024a5fd6"
+  },
+  {
+    "file": "02-screens/jpg/15-place.jpg",
+    "bytes": 161047,
+    "sha256": "170a3ac8b8ea3f873471077136609aa5ee18f390f98668f4627afc95df391420"
+  },
+  {
+    "file": "02-screens/jpg/16-route.jpg",
+    "bytes": 133320,
+    "sha256": "d58f86522a31859b966fd3ba190d4ba132875c5da2fe98391337cb7efa51ce02"
+  },
+  {
+    "file": "02-screens/jpg/17-reviews.jpg",
+    "bytes": 142561,
+    "sha256": "9c922cbbb78ceb4a4db942115426d09435cc936fb20677c45a4cc46d39e78473"
+  },
+  {
+    "file": "02-screens/jpg/18-stories.jpg",
+    "bytes": 137114,
+    "sha256": "fc58b659b19635a8dbaba24095240c85255d956d8bd2dcc872d2c9e2aa6c9c4b"
+  },
+  {
+    "file": "02-screens/jpg/19-story.jpg",
+    "bytes": 152460,
+    "sha256": "d4339bdce857b070701c4ccf7c19b5c541b5b34f795246a6d7b45f89bafa9b70"
+  },
+  {
+    "file": "02-screens/jpg/20-profile.jpg",
+    "bytes": 139094,
+    "sha256": "a4a5284ac0f4561f6fe3acb8778d58c40d084ea09c84cbb5942391d98b6f2710"
+  },
+  {
+    "file": "02-screens/jpg/21-settings.jpg",
+    "bytes": 139084,
+    "sha256": "66669287c32d8bd0bb8d8cea7a2620d9f339f2f9940764ca9c785246f24c19ab"
+  },
+  {
+    "file": "02-screens/jpg/22-offline.jpg",
+    "bytes": 164048,
+    "sha256": "c04f8ecc8d95369ae67b2f7bf575667892feba8601ddcb561ccc4468e6d2aa0e"
+  },
+  {
+    "file": "02-screens/jpg/23-empty.jpg",
+    "bytes": 120208,
+    "sha256": "73db4011b42971a7179ab01ac1d6eb63efb866169ca7a73f22eb8b13a5234f58"
+  },
+  {
+    "file": "02-screens/jpg/24-error.jpg",
+    "bytes": 101298,
+    "sha256": "ed1982d0d59a112acbe18b710f5ac79e14df0cee78780f3a47653de6b4a46839"
+  },
+  {
+    "file": "02-screens/jpg/25-home-dark.jpg",
+    "bytes": 181106,
+    "sha256": "458b3d1186ed37dada1a0aa6d060d726257cb93a16e6acf79acaefe4380fb47a"
+  },
+  {
+    "file": "02-screens/mobile/01-welcome.png",
+    "bytes": 63791,
+    "sha256": "53b2405f117e7035523cf530f6de3acb1b4e0d88be795fb0a3c0f676a0223599"
+  },
+  {
+    "file": "02-screens/mobile/02-cities.png",
+    "bytes": 79795,
+    "sha256": "28ecddb1b31b0392a349c777c0edeb6a0c2d72b0c41a26974982f0ba2b6930df"
+  },
+  {
+    "file": "02-screens/mobile/03-goals.png",
+    "bytes": 74552,
+    "sha256": "5d838e7beaf63c772ae859dcbfba6ccd5d2e1113098ddd6fad9399c1db451fd1"
+  },
+  {
+    "file": "02-screens/mobile/04-anchors.png",
+    "bytes": 116935,
+    "sha256": "42681a72b6c5556afeb5dd57ea11040a87de79ae2a4596e2116ab5318206e867"
+  },
+  {
+    "file": "02-screens/mobile/05-placement.png",
+    "bytes": 96758,
+    "sha256": "77ca3973df77f88e79e1cb7547bdc3688d6022db088ef69771c6ad3a4ebcca51"
+  },
+  {
+    "file": "02-screens/mobile/06-home.png",
+    "bytes": 131411,
+    "sha256": "63f80138c1ae3fcde3745a5b1b59bf06ffb1ca1f4b5e277a837a74f4d9db61d3"
+  },
+  {
+    "file": "02-screens/mobile/07-path.png",
+    "bytes": 84007,
+    "sha256": "e47f465e1159a7fcd686cf97a6e3f34a155f6c42d6c66256057cf7065895c7f0"
+  },
+  {
+    "file": "02-screens/mobile/08-lesson.png",
+    "bytes": 103100,
+    "sha256": "d44f8571f851854ffc623a2ce31c2b3a053dc42bca53296b6bb3013a6f879e5b"
+  },
+  {
+    "file": "02-screens/mobile/09-quiz.png",
+    "bytes": 86644,
+    "sha256": "f918e6715cee5c8e88a911c5fb20a39a235031ba01b2fe813b2c0cde6d6e5ee7"
+  },
+  {
+    "file": "02-screens/mobile/10-correct.png",
+    "bytes": 82621,
+    "sha256": "72cc9f52ae32c4f8f53fb3aa482e994cc7657caed40dc7168a2a160c74ccc0ba"
+  },
+  {
+    "file": "02-screens/mobile/11-incorrect.png",
+    "bytes": 87288,
+    "sha256": "61f1440f9750912e21075594652120e2a8273a59a66afee5798341a0a471e3c5"
+  },
+  {
+    "file": "02-screens/mobile/12-locate.png",
+    "bytes": 105807,
+    "sha256": "c9372cb363401af926f9945cef94e615c11971b9611555d4a7bc58e9cf9e89b2"
+  },
+  {
+    "file": "02-screens/mobile/13-complete.png",
+    "bytes": 73091,
+    "sha256": "7bf3f4db862f71b90cd57f27453cf3fb737a84cd991c9c30f223e3d076cb45f2"
+  },
+  {
+    "file": "02-screens/mobile/14-map.png",
+    "bytes": 100935,
+    "sha256": "124f6369296e444a9302383411d76f146919ac213910c0a3f5d1ae8c96755ba1"
+  },
+  {
+    "file": "02-screens/mobile/15-place.png",
+    "bytes": 113551,
+    "sha256": "30e851a45ebaa1f6db3813956254168cc957e2573391ded688180aa0ed9b1f1d"
+  },
+  {
+    "file": "02-screens/mobile/16-route.png",
+    "bytes": 102041,
+    "sha256": "e4343e8f2a1b2f5ed05e677565333a002d070214f5a6675059ffcd8350e2fe5a"
+  },
+  {
+    "file": "02-screens/mobile/17-reviews.png",
+    "bytes": 98473,
+    "sha256": "fb611f724ed284c4410c9b82c42d109f1e42d2187986772799579eecb14883cf"
+  },
+  {
+    "file": "02-screens/mobile/18-stories.png",
+    "bytes": 82293,
+    "sha256": "76ca2543b04fa868b36f2a5c8377c83432cc06515eb11665f57b0bfe9fbe6ff9"
+  },
+  {
+    "file": "02-screens/mobile/19-story.png",
+    "bytes": 100553,
+    "sha256": "d006651877701db90bf83a5837a82bdc04b57600bf778ec7fbe0f7512cca5157"
+  },
+  {
+    "file": "02-screens/mobile/20-profile.png",
+    "bytes": 85234,
+    "sha256": "4c5fe6efa7f34ee51e6f21d63ca5cd6c5aa24494ea941a380e3be31dfc70c12c"
+  },
+  {
+    "file": "02-screens/mobile/21-settings.png",
+    "bytes": 94828,
+    "sha256": "7b385c8a41cca91e3b53275cb1da59b77a0b5470530aa527dc61e6c73022595f"
+  },
+  {
+    "file": "02-screens/mobile/22-offline.png",
+    "bytes": 111162,
+    "sha256": "697ee0346efe6d5603f82e7c308a86d6e1a5122484efbe1baa63d1497fe15368"
+  },
+  {
+    "file": "02-screens/mobile/23-empty.png",
+    "bytes": 89311,
+    "sha256": "83f52f9a05f4cc8932be922d0a8c5da34e50d573997bd7c98b15fb569dd94969"
+  },
+  {
+    "file": "02-screens/mobile/24-error.png",
+    "bytes": 67152,
+    "sha256": "b59022ce3f36acfc19180aaee4d1ab5c1ef99de5035d81d6db7632010de8e8c4"
+  },
+  {
+    "file": "02-screens/mobile/25-home-dark.png",
+    "bytes": 132338,
+    "sha256": "b3ce23e8453acba8f38e15de3d32cd72c4c056238b52fbd6d5999ec85176e112"
+  },
+  {
+    "file": "03-design-system/components.html",
+    "bytes": 6043,
+    "sha256": "151a1cb89ede2e7709da1025db2f70feebd5a93666c3e36fc979f7cde3a5a00a"
+  },
+  {
+    "file": "03-design-system/components.png",
+    "bytes": 379450,
+    "sha256": "1ace91396ac23bd2f6aa64d827bcc629947b12893997f53625415c3330c27250"
+  },
+  {
+    "file": "03-design-system/tokens.json",
+    "bytes": 1304,
+    "sha256": "2e35a17e9e2b44daa9aea6681b55889b894c24cea6aff399f5a1f2a598f3e20e"
+  },
+  {
+    "file": "04-handoff/implementation-notes.md",
+    "bytes": 6043,
+    "sha256": "90e4fc93f25da343bfe2753f08c4404522210780cee4e7b437afcf3028ef061c"
+  },
+  {
+    "file": "04-handoff/verification.json",
+    "bytes": 4034,
+    "sha256": "68fc89ec02dc72dc9eabae609f7f50949a2ee9ed016292f78c228392b1d2348b"
+  },
+  {
+    "file": "05-overview/01-onboarding.jpg",
+    "bytes": 238690,
+    "sha256": "b2af5196eab5854f9ecbcc45531295cf4c390cfb750c078830f321039671ab76"
+  },
+  {
+    "file": "05-overview/01-onboarding.png",
+    "bytes": 319244,
+    "sha256": "7e77534d72263d785ffa019d9cd38fc6bfb2aa1c6f444fb1cffe932603b8dbcf"
+  },
+  {
+    "file": "05-overview/02-daily-learning.jpg",
+    "bytes": 233752,
+    "sha256": "a98b9123961fc1af6153ca3fd9be8f4d6ba63af5cb1075b5073ee834735684f6"
+  },
+  {
+    "file": "05-overview/02-daily-learning.png",
+    "bytes": 318673,
+    "sha256": "a5aafee7ae2e78491331b90ee8178e0dbca2ae5f8ee65919c8a4572ffa83f844"
+  },
+  {
+    "file": "05-overview/03-exploration.jpg",
+    "bytes": 228625,
+    "sha256": "e8430be3049a9154e253078664dec877036b2df6fd89963d1acbbe05a2e49bbc"
+  },
+  {
+    "file": "05-overview/03-exploration.png",
+    "bytes": 328729,
+    "sha256": "1faf2fa68ce53c27ad409fa747d2ae75e115ce7a28f259b946dc2b9984b3578b"
+  },
+  {
+    "file": "05-overview/04-progress-and-states.jpg",
+    "bytes": 226755,
+    "sha256": "4a1a544440a41c6616fa4a61fc781da399a18d07287ff8e10a24af1ddd63333a"
+  },
+  {
+    "file": "05-overview/04-progress-and-states.png",
+    "bytes": 319644,
+    "sha256": "a8c5e097797b1084e76046b52662c9883de83046dc8666dae79e5d7708f6a3b6"
+  },
+  {
+    "file": "05-overview/prototype-studio.png",
+    "bytes": 378835,
+    "sha256": "48becf65ab8843b48186ee86040c407a591afe2f1b14e64246530cae3cc6b7e8"
+  },
+  {
+    "file": "05-overview/user-flow.svg",
+    "bytes": 4900,
+    "sha256": "ca08364de85b25d216be31a57178dc0aac54d2e2ea6106675c026fe7a4284480"
+  },
+  {
+    "file": "06-tools/assemble.py",
+    "bytes": 3285,
+    "sha256": "0405cc27dd1c1cf93912cd0d7926d43660f1e0c8082b1a49c1cfd3ed4894d4d9"
+  },
+  {
+    "file": "06-tools/render-and-check.cjs",
+    "bytes": 5076,
+    "sha256": "934954c306a0375b3c6a5199cdc0df10a56e3d0b45b82652cfe54520ac7ab085"
+  },
+  {
+    "file": "README.md",
+    "bytes": 5174,
+    "sha256": "31195367543ac77aa78080cfcbbb25acb72134256b91ff787d8bc5134cbd7adb"
+  },
+  {
+    "file": "START-HERE.html",
+    "bytes": 2180,
+    "sha256": "64ace1a5236bd19b3a5b894dee9b072d63a30167b69ff7066441665ad197346b"
+  }
+]
