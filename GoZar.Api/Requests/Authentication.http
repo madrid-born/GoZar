@@ -1,0 +1,9 @@
+@baseUrl = https://localhost:7001
+
+# Existing authentication, not a scaffold. Running these requests can create an account/send email.
+# TODO : Set the server URL and supply your own test credentials before sending requests manually.
+### Login (confirmed account required)
+POST {{baseUrl}}/api/Authentication/login
+Content-Type: application/json
+
+{"email":"YOUR_TEST_EMAIL","password":"YOUR_TEST_PASSWORD"}

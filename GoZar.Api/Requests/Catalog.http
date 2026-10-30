@@ -1,0 +1,16 @@
+@baseUrl = https://localhost:7001
+@accessToken = REPLACE_WITH_ACCESS_TOKEN
+@cityId = 00000000-0000-0000-0000-000000000001
+
+# TODO : Set baseUrl from launchSettings or your deployed environment. Scaffold calls return 501.
+### Published cities
+GET {{baseUrl}}/api/cities
+Authorization: Bearer {{accessToken}}
+
+### Search published places
+GET {{baseUrl}}/api/places?CityId={{cityId}}&Page=1&PageSize=20
+Authorization: Bearer {{accessToken}}
+
+### Proposed personalized map viewport
+GET {{baseUrl}}/api/map?CityId={{cityId}}&West=51.2&South=35.6&East=51.6&North=35.9&Layer=learning
+Authorization: Bearer {{accessToken}}

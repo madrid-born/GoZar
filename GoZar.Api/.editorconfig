@@ -1,0 +1,3 @@
+﻿# Explicit UTF-8 markers, consistent with the MAUI frontend.
+[*.{cs,resx}]
+charset = utf-8-bom

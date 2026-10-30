@@ -192,6 +192,7 @@ public class AuthenticationController(
     [HttpDelete("me")]
     public async Task<IActionResult> DeleteAccount(DeleteAccountRequest request)
     {
+        // TODO : Before enabling application-data writes, coordinate account deletion with restricted user foreign keys, retention and cached content.
         var user = await users.GetUserAsync(User);
         if (user is null) return Unauthorized();
         if (!await users.CheckPasswordAsync(user, request.Password)) return Unauthorized();

@@ -1,0 +1,772 @@
+﻿[
+  {
+    "controller": "CitiesController",
+    "verb": "GET",
+    "path": "/api/cities",
+    "service": "CatalogService.GetCitiesAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "CitiesController",
+    "verb": "GET",
+    "path": "/api/cities/{cityId:guid}",
+    "service": "CatalogService.GetCityAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "CitiesController",
+    "verb": "GET",
+    "path": "/api/cities/{cityId:guid}/transit-lines",
+    "service": "CatalogService.GetTransitLinesAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "CitiesController",
+    "verb": "GET",
+    "path": "/api/cities/{cityId:guid}/transit-lines/{lineId:guid}/stations",
+    "service": "CatalogService.GetLineStationsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "PlacesController",
+    "verb": "GET",
+    "path": "/api/places",
+    "service": "CatalogService.SearchPlacesAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "PlacesController",
+    "verb": "GET",
+    "path": "/api/places/{placeId:guid}",
+    "service": "CatalogService.GetPlaceAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "PlacesController",
+    "verb": "GET",
+    "path": "/api/places/{placeId:guid}/geometry",
+    "service": "CatalogService.GetGeometryAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "OnboardingController",
+    "verb": "GET",
+    "path": "/api/onboarding",
+    "service": "OnboardingService.GetStateAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "OnboardingController",
+    "verb": "PUT",
+    "path": "/api/onboarding/city",
+    "service": "OnboardingService.SelectCityAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "OnboardingController",
+    "verb": "GET",
+    "path": "/api/onboarding/goals",
+    "service": "OnboardingService.GetAvailableGoalsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "OnboardingController",
+    "verb": "PUT",
+    "path": "/api/onboarding/goals",
+    "service": "OnboardingService.UpdateGoalsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "OnboardingController",
+    "verb": "GET",
+    "path": "/api/onboarding/anchors",
+    "service": "OnboardingService.GetAnchorsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "OnboardingController",
+    "verb": "POST",
+    "path": "/api/onboarding/anchors",
+    "service": "OnboardingService.CreateAnchorAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "OnboardingController",
+    "verb": "PUT",
+    "path": "/api/onboarding/anchors/{anchorId:guid}",
+    "service": "OnboardingService.UpdateAnchorAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "OnboardingController",
+    "verb": "DELETE",
+    "path": "/api/onboarding/anchors/{anchorId:guid}",
+    "service": "OnboardingService.DeleteAnchorAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "OnboardingController",
+    "verb": "POST",
+    "path": "/api/onboarding/complete",
+    "service": "OnboardingService.CompleteAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "PlacementController",
+    "verb": "POST",
+    "path": "/api/placement/sessions",
+    "service": "PlacementService.StartAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "PlacementController",
+    "verb": "GET",
+    "path": "/api/placement/sessions/{sessionId:guid}",
+    "service": "PlacementService.GetSessionAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "PlacementController",
+    "verb": "POST",
+    "path": "/api/placement/sessions/{sessionId:guid}/answers",
+    "service": "PlacementService.SubmitAnswerAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "PlacementController",
+    "verb": "POST",
+    "path": "/api/placement/sessions/{sessionId:guid}/complete",
+    "service": "PlacementService.CompleteAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "LearningPathController",
+    "verb": "GET",
+    "path": "/api/learning/path",
+    "service": "LearningSessionService.GetPathAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "LearningPathController",
+    "verb": "GET",
+    "path": "/api/learning/chapters/{chapterId:guid}/lessons",
+    "service": "LearningSessionService.GetChapterLessonsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "LearningPathController",
+    "verb": "GET",
+    "path": "/api/learning/lessons/{lessonId:guid}",
+    "service": "LearningSessionService.GetLessonAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "LearningSessionsController",
+    "verb": "POST",
+    "path": "/api/learning/sessions",
+    "service": "LearningSessionService.StartAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "LearningSessionsController",
+    "verb": "GET",
+    "path": "/api/learning/sessions/active",
+    "service": "LearningSessionService.GetActiveAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "LearningSessionsController",
+    "verb": "GET",
+    "path": "/api/learning/sessions/{sessionId:guid}",
+    "service": "LearningSessionService.GetSessionAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "LearningSessionsController",
+    "verb": "GET",
+    "path": "/api/learning/sessions/{sessionId:guid}/exercises/{exerciseId:guid}",
+    "service": "LearningSessionService.GetExerciseAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "LearningSessionsController",
+    "verb": "POST",
+    "path": "/api/learning/sessions/{sessionId:guid}/introductions",
+    "service": "LearningSessionService.ConfirmIntroductionAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "LearningSessionsController",
+    "verb": "POST",
+    "path": "/api/learning/sessions/{sessionId:guid}/answers",
+    "service": "LearningSessionService.SubmitAnswerAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "LearningSessionsController",
+    "verb": "POST",
+    "path": "/api/learning/sessions/{sessionId:guid}/complete",
+    "service": "LearningSessionService.CompleteAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "LearningSessionsController",
+    "verb": "GET",
+    "path": "/api/learning/sessions/{sessionId:guid}/summary",
+    "service": "LearningSessionService.GetSummaryAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "LearningSessionsController",
+    "verb": "POST",
+    "path": "/api/learning/sessions/{sessionId:guid}/abandon",
+    "service": "LearningSessionService.AbandonAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ReviewsController",
+    "verb": "GET",
+    "path": "/api/reviews",
+    "service": "ReviewService.GetDueAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ReviewsController",
+    "verb": "POST",
+    "path": "/api/reviews/sessions",
+    "service": "ReviewService.StartReviewSessionAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ProgressController",
+    "verb": "GET",
+    "path": "/api/progress",
+    "service": "ProgressService.GetSummaryAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ProgressController",
+    "verb": "GET",
+    "path": "/api/progress/places/{placeId:guid}",
+    "service": "ProgressService.GetPlaceProgressAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ProgressController",
+    "verb": "GET",
+    "path": "/api/progress/activity",
+    "service": "ProgressService.GetActivityAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "StoriesController",
+    "verb": "GET",
+    "path": "/api/stories",
+    "service": "StoriesService.GetStoriesAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "StoriesController",
+    "verb": "GET",
+    "path": "/api/stories/{storyId:guid}",
+    "service": "StoriesService.GetStoryAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ProfileController",
+    "verb": "GET",
+    "path": "/api/profile",
+    "service": "ProfileService.GetProfileAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ProfileController",
+    "verb": "GET",
+    "path": "/api/profile/preferences",
+    "service": "ProfileService.GetPreferencesAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ProfileController",
+    "verb": "PUT",
+    "path": "/api/profile/preferences",
+    "service": "ProfileService.UpdatePreferencesAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ProfileController",
+    "verb": "GET",
+    "path": "/api/profile/saved-places",
+    "service": "ProfileService.GetSavedPlacesAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ProfileController",
+    "verb": "POST",
+    "path": "/api/profile/saved-places",
+    "service": "ProfileService.SavePlaceAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ProfileController",
+    "verb": "DELETE",
+    "path": "/api/profile/saved-places/{placeId:guid}",
+    "service": "ProfileService.RemoveSavedPlaceAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ProfileController",
+    "verb": "GET",
+    "path": "/api/profile/saved-stories",
+    "service": "ProfileService.GetSavedStoriesAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ProfileController",
+    "verb": "POST",
+    "path": "/api/profile/saved-stories",
+    "service": "ProfileService.SaveStoryAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ProfileController",
+    "verb": "DELETE",
+    "path": "/api/profile/saved-stories/{storyId:guid}",
+    "service": "ProfileService.RemoveSavedStoryAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ContentPacksController",
+    "verb": "GET",
+    "path": "/api/content-packs",
+    "service": "ContentPackService.GetAvailableAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "ContentPacksController",
+    "verb": "GET",
+    "path": "/api/content-packs/{packId:guid}/manifest",
+    "service": "ContentPackService.GetManifestAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "SynchronizationController",
+    "verb": "POST",
+    "path": "/api/synchronization/answers",
+    "service": "SynchronizationService.SubmitAnswersAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "POST",
+    "path": "/api/admin/cities",
+    "service": "AdministrationService.CreateCityAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/cities/{id:guid}",
+    "service": "AdministrationService.UpdateCityAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/cities/{id:guid}/publication",
+    "service": "AdministrationService.SetCityPublicationAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "POST",
+    "path": "/api/admin/places",
+    "service": "AdministrationService.CreatePlaceAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/places/{id:guid}",
+    "service": "AdministrationService.UpdatePlaceAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/places/{id:guid}/publication",
+    "service": "AdministrationService.SetPlacePublicationAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "POST",
+    "path": "/api/admin/transit-lines",
+    "service": "AdministrationService.CreateTransitLineAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/transit-lines/{id:guid}",
+    "service": "AdministrationService.UpdateTransitLineAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/transit-lines/{id:guid}/publication",
+    "service": "AdministrationService.SetTransitLinePublicationAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "POST",
+    "path": "/api/admin/chapters",
+    "service": "AdministrationService.CreateChapterAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/chapters/{id:guid}",
+    "service": "AdministrationService.UpdateChapterAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/chapters/{id:guid}/publication",
+    "service": "AdministrationService.SetChapterPublicationAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "POST",
+    "path": "/api/admin/lessons",
+    "service": "AdministrationService.CreateLessonAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/lessons/{id:guid}",
+    "service": "AdministrationService.UpdateLessonAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/lessons/{id:guid}/publication",
+    "service": "AdministrationService.SetLessonPublicationAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "POST",
+    "path": "/api/admin/goals",
+    "service": "AdministrationService.CreateLearningGoalAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/goals/{id:guid}",
+    "service": "AdministrationService.UpdateLearningGoalAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "POST",
+    "path": "/api/admin/stories",
+    "service": "AdministrationService.CreateStoryAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/stories/{id:guid}",
+    "service": "AdministrationService.UpdateStoryAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/stories/{id:guid}/publication",
+    "service": "AdministrationService.SetStoryPublicationAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "POST",
+    "path": "/api/admin/sources",
+    "service": "AdministrationService.CreateSourceAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/sources/{id:guid}",
+    "service": "AdministrationService.UpdateSourceAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "POST",
+    "path": "/api/admin/facts",
+    "service": "AdministrationService.CreateFactAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/facts/{id:guid}",
+    "service": "AdministrationService.UpdateFactAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/facts/{id:guid}/publication",
+    "service": "AdministrationService.SetFactPublicationAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/places/{placeId:guid}/geometry",
+    "service": "AdministrationService.SaveGeometryAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "POST",
+    "path": "/api/admin/places/{placeId:guid}/aliases",
+    "service": "AdministrationService.AddAliasAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "DELETE",
+    "path": "/api/admin/places/{placeId:guid}/aliases/{aliasId:guid}",
+    "service": "AdministrationService.RemoveAliasAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "POST",
+    "path": "/api/admin/relationships",
+    "service": "AdministrationService.SaveRelationshipAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "DELETE",
+    "path": "/api/admin/relationships/{relationshipId:guid}",
+    "service": "AdministrationService.RemoveRelationshipAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/places/{placeId:guid}/road",
+    "service": "AdministrationService.SaveRoadDetailsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/places/{placeId:guid}/station",
+    "service": "AdministrationService.SaveStationDetailsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/transit-lines/{lineId:guid}/stations",
+    "service": "AdministrationService.SetLineStationsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "PUT",
+    "path": "/api/admin/chapters/{chapterId:guid}/prerequisites",
+    "service": "AdministrationService.SetPrerequisitesAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/cities/{cityId:guid}/validation",
+    "service": "AdministrationService.ValidateCityAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "POST",
+    "path": "/api/admin/catalog-imports",
+    "service": "AdministrationService.ImportCatalogAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/catalog-imports/{jobId:guid}",
+    "service": "AdministrationService.GetImportStatusAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "POST",
+    "path": "/api/admin/cities/{cityId:guid}/content-packs",
+    "service": "AdministrationService.BuildContentPackAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/cities",
+    "service": "AdministrationService.ListCityDraftsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/cities/{id:guid}",
+    "service": "AdministrationService.GetCityDraftAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/places",
+    "service": "AdministrationService.ListPlaceDraftsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/places/{id:guid}",
+    "service": "AdministrationService.GetPlaceDraftAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/transit-lines",
+    "service": "AdministrationService.ListTransitLineDraftsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/transit-lines/{id:guid}",
+    "service": "AdministrationService.GetTransitLineDraftAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/chapters",
+    "service": "AdministrationService.ListChapterDraftsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/chapters/{id:guid}",
+    "service": "AdministrationService.GetChapterDraftAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/lessons",
+    "service": "AdministrationService.ListLessonDraftsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/lessons/{id:guid}",
+    "service": "AdministrationService.GetLessonDraftAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/goals",
+    "service": "AdministrationService.ListLearningGoalDraftsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/goals/{id:guid}",
+    "service": "AdministrationService.GetLearningGoalDraftAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/stories",
+    "service": "AdministrationService.ListStoryDraftsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/stories/{id:guid}",
+    "service": "AdministrationService.GetStoryDraftAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/sources",
+    "service": "AdministrationService.ListSourceDraftsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/sources/{id:guid}",
+    "service": "AdministrationService.GetSourceDraftAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/facts",
+    "service": "AdministrationService.ListFactDraftsAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "GET",
+    "path": "/api/admin/facts/{id:guid}",
+    "service": "AdministrationService.GetFactDraftAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "AdministrationController",
+    "verb": "POST",
+    "path": "/api/admin/assets",
+    "service": "AdministrationService.UploadAssetAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "TodayController",
+    "verb": "GET",
+    "path": "/api/learning/today",
+    "service": "TodayService.GetAsync",
+    "status": "scaffold: 501 until implemented"
+  },
+  {
+    "controller": "MapController",
+    "verb": "GET",
+    "path": "/api/map",
+    "service": "MapService.GetViewportAsync",
+    "status": "scaffold: 501 until implemented"
+  }
+]

@@ -1,0 +1,15 @@
+@baseUrl = https://localhost:7001
+@accessToken = REPLACE_WITH_ACCESS_TOKEN
+@cityId = 00000000-0000-0000-0000-000000000001
+
+# TODO : Configure real IDs and URL. User identity comes from the access token.
+### Onboarding state
+GET {{baseUrl}}/api/onboarding
+Authorization: Bearer {{accessToken}}
+
+### Important approximate public place
+POST {{baseUrl}}/api/onboarding/anchors
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{"cityId":"{{cityId}}","placeId":null,"label":"Public meeting place","latitude":35.75,"longitude":51.41}

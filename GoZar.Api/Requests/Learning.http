@@ -1,0 +1,26 @@
+@baseUrl = https://localhost:7001
+@accessToken = REPLACE_WITH_ACCESS_TOKEN
+@cityId = 00000000-0000-0000-0000-000000000001
+@requestId = 00000000-0000-0000-0000-000000000002
+@sessionId = 00000000-0000-0000-0000-000000000003
+@exerciseId = 00000000-0000-0000-0000-000000000004
+@submissionId = 00000000-0000-0000-0000-000000000005
+
+# TODO : Set URL/IDs; these operations are unimplemented. Reuse a submission ID only for an identical retry.
+### Preview Today
+GET {{baseUrl}}/api/learning/today?cityId={{cityId}}
+Authorization: Bearer {{accessToken}}
+
+### Start or resume a stable session
+POST {{baseUrl}}/api/learning/sessions
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{"cityId":"{{cityId}}","clientRequestId":"{{requestId}}","sessionKind":"daily"}
+
+### Answer payload format is provisional
+POST {{baseUrl}}/api/learning/sessions/{{sessionId}}/answers
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{"exerciseId":"{{exerciseId}}","clientSubmissionId":"{{submissionId}}","answer":{"selectedOptionId":"REPLACE_WITH_SERVER_OPTION_ID"}}
