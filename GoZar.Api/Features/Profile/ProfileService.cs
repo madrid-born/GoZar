@@ -1,6 +1,9 @@
-﻿using GoZar.Api.Models;
-using GoZar.Api.Common.Pagination;
+﻿using GoZar.Api.Common.Pagination;
+using GoZar.Api.Features.Catalog.Contracts;
 using GoZar.Api.Features.Profile.Contracts;
+using GoZar.Api.Features.Stories.Contracts;
+using GoZar.Api.Models;
+
 namespace GoZar.Api.Features.Profile;
 
 public sealed class ProfileService(AppDbContext db, TimeProvider clock)
@@ -30,7 +33,7 @@ public sealed class ProfileService(AppDbContext db, TimeProvider clock)
         throw new NotImplementedException("ProfileService.UpdatePreferencesAsync");
     }
 
-    public Task<PagedResponse<GoZar.Api.Features.Catalog.Contracts.PlaceSummaryResponse>> GetSavedPlacesAsync(string userId, PageRequest page, CancellationToken cancellationToken = default)
+    public Task<PagedResponse<PlaceSummaryResponse>> GetSavedPlacesAsync(string userId, PageRequest page, CancellationToken cancellationToken = default)
     {
         // TODO : Implement GetSavedPlaces with validation, ownership/publication checks and cancellation.
         // TODO : Coordinate writes transactionally; never return success before persistence commits.
@@ -51,7 +54,7 @@ public sealed class ProfileService(AppDbContext db, TimeProvider clock)
         throw new NotImplementedException("ProfileService.RemoveSavedPlaceAsync");
     }
 
-    public Task<PagedResponse<GoZar.Api.Features.Stories.Contracts.StorySummaryResponse>> GetSavedStoriesAsync(string userId, PageRequest page, CancellationToken cancellationToken = default)
+    public Task<PagedResponse<StorySummaryResponse>> GetSavedStoriesAsync(string userId, PageRequest page, CancellationToken cancellationToken = default)
     {
         // TODO : Implement GetSavedStories with validation, ownership/publication checks and cancellation.
         // TODO : Coordinate writes transactionally; never return success before persistence commits.

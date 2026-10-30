@@ -1,6 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-
-namespace GoZar.Maui;
+﻿namespace GoZar.Maui;
 
 public partial class App : Application
 {

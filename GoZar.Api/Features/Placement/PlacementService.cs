@@ -1,6 +1,6 @@
-﻿using GoZar.Api.Models;
-using GoZar.Api.Common.Pagination;
-using GoZar.Api.Features.Placement.Contracts;
+﻿using GoZar.Api.Features.Placement.Contracts;
+using GoZar.Api.Models;
+
 namespace GoZar.Api.Features.Placement;
 
 public sealed class PlacementService(AppDbContext db, TimeProvider clock)

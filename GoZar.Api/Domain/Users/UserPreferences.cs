@@ -1,5 +1,4 @@
-﻿using GoZar.Api.Domain;
-namespace GoZar.Api.Domain.Users;
+﻿namespace GoZar.Api.Domain.Users;
 
 public sealed class UserPreferences : DomainEntity
 {

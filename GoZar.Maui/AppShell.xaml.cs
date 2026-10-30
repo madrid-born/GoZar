@@ -1,10 +1,10 @@
-﻿using GoZar.Maui.Services;
-using Microsoft.Extensions.DependencyInjection;
-using GoZar.Maui.Features.Authentication;
-using GoZar.Maui.Features.Today;
+﻿using GoZar.Maui.Features.Authentication;
 using GoZar.Maui.Features.Explore;
-using GoZar.Maui.Features.Stories;
 using GoZar.Maui.Features.Profile;
+using GoZar.Maui.Features.Stories;
+using GoZar.Maui.Features.Today;
+using GoZar.Maui.Services;
+
 namespace GoZar.Maui;
 
 public partial class AppShell : Shell

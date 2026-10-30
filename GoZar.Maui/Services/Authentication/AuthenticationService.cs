@@ -1,5 +1,6 @@
 ﻿using GoZar.Maui.Services.Api;
 using GoZar.Maui.Services.Storage;
+
 namespace GoZar.Maui.Services.Authentication;
 
 public sealed class AuthenticationService(AuthenticationApi api, TokenStore tokenStore) : IAuthenticationService

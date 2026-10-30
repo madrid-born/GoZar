@@ -1,6 +1,8 @@
 ﻿using GoZar.Api.Domain.Users;
+using GoZar.Api.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 namespace GoZar.Api.Data.Configurations.Users;
 
 public sealed class UserPreferencesConfiguration : IEntityTypeConfiguration<UserPreferences>
@@ -14,7 +16,7 @@ public sealed class UserPreferencesConfiguration : IEntityTypeConfiguration<User
         builder.Property(x => x.LanguageCode).HasMaxLength(200).IsRequired();
         builder.Property(x => x.TimeZoneId).HasMaxLength(200).IsRequired();
         builder.HasIndex(x => x.UserId).IsUnique();
-        builder.HasOne<GoZar.Api.Models.ApplicationUser>().WithMany().HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Restrict);
+        builder.HasOne<ApplicationUser>().WithMany().HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Restrict);
         // TODO : Review lengths, uniqueness, same-city relationships and delete policies before generating migrations.
     }
 }

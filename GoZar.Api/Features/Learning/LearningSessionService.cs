@@ -1,6 +1,6 @@
-﻿using GoZar.Api.Models;
-using GoZar.Api.Common.Pagination;
-using GoZar.Api.Features.Learning.Contracts;
+﻿using GoZar.Api.Features.Learning.Contracts;
+using GoZar.Api.Models;
+
 namespace GoZar.Api.Features.Learning;
 
 public sealed class LearningSessionService(AppDbContext db, TimeProvider clock)

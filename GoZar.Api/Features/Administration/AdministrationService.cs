@@ -1,6 +1,7 @@
-﻿using GoZar.Api.Models;
-using GoZar.Api.Common.Pagination;
+﻿using GoZar.Api.Common.Pagination;
 using GoZar.Api.Features.Administration.Contracts;
+using GoZar.Api.Models;
+
 namespace GoZar.Api.Features.Administration;
 
 // TODO : Keep imported content unpublishable until validated; choose durable job execution for long work.
@@ -383,7 +384,7 @@ public sealed class AdministrationService(AppDbContext db, TimeProvider clock)
         throw new NotImplementedException();
     }
 
-    public Task<Contracts.UploadedAssetResponse> UploadAssetAsync(Stream content, string contentType, CancellationToken cancellationToken = default)
+    public Task<UploadedAssetResponse> UploadAssetAsync(Stream content, string contentType, CancellationToken cancellationToken = default)
     {
         // TODO : Validate size/type and store through ContentStorage with an opaque key, not the original filename.
         throw new NotImplementedException();

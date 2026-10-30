@@ -1,9 +1,10 @@
+using GoZar.Api.Models;
+using MailKit;
 using MailKit.Net.Smtp;
 using MailKit.Security;
-using MimeKit;
-using GoZar.Api.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
+using MimeKit;
 
 namespace GoZar.Api.Services;
 
@@ -70,7 +71,7 @@ public sealed class IdentityEmailSender(IOptions<SmtpOptions> options, ILogger<I
         }
         // Delivery already succeeded; a disconnect error must not trigger a duplicate send.
         try { await client.DisconnectAsync(true, timeout.Token); }
-        catch (Exception exception) when (exception is IOException or MailKit.ProtocolException or OperationCanceledException)
+        catch (Exception exception) when (exception is IOException or ProtocolException or OperationCanceledException)
         {
             logger.LogWarning("SMTP disconnect failed after delivery. Error type: {ErrorType}", exception.GetType().Name);
         }

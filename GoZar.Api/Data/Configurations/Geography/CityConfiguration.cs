@@ -1,6 +1,7 @@
 ﻿using GoZar.Api.Domain.Geography;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 namespace GoZar.Api.Data.Configurations.Geography;
 
 public sealed class CityConfiguration : IEntityTypeConfiguration<City>

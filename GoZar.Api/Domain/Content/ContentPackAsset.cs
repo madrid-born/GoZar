@@ -1,5 +1,4 @@
-﻿using GoZar.Api.Domain;
-namespace GoZar.Api.Domain.Content;
+﻿namespace GoZar.Api.Domain.Content;
 
 public sealed class ContentPackAsset : DomainEntity
 {

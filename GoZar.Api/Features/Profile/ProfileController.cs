@@ -1,8 +1,11 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using GoZar.Api.Common.CurrentUser;
+﻿using GoZar.Api.Common.CurrentUser;
 using GoZar.Api.Common.Pagination;
+using GoZar.Api.Features.Catalog.Contracts;
 using GoZar.Api.Features.Profile.Contracts;
+using GoZar.Api.Features.Stories.Contracts;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
 namespace GoZar.Api.Features.Profile;
 
 [ApiController]
@@ -24,7 +27,7 @@ public sealed class ProfileController(ProfileService service, ICurrentUser curre
         service.UpdatePreferencesAsync(currentUser.RequiredUserId, request, cancellationToken);
 
     [HttpGet("saved-places")]
-    public Task<PagedResponse<GoZar.Api.Features.Catalog.Contracts.PlaceSummaryResponse>> GetSavedPlaces([FromQuery] PageRequest page, CancellationToken cancellationToken) =>
+    public Task<PagedResponse<PlaceSummaryResponse>> GetSavedPlaces([FromQuery] PageRequest page, CancellationToken cancellationToken) =>
         service.GetSavedPlacesAsync(currentUser.RequiredUserId, page, cancellationToken);
 
     [HttpPost("saved-places")]
@@ -36,7 +39,7 @@ public sealed class ProfileController(ProfileService service, ICurrentUser curre
         service.RemoveSavedPlaceAsync(currentUser.RequiredUserId, placeId, cancellationToken);
 
     [HttpGet("saved-stories")]
-    public Task<PagedResponse<GoZar.Api.Features.Stories.Contracts.StorySummaryResponse>> GetSavedStories([FromQuery] PageRequest page, CancellationToken cancellationToken) =>
+    public Task<PagedResponse<StorySummaryResponse>> GetSavedStories([FromQuery] PageRequest page, CancellationToken cancellationToken) =>
         service.GetSavedStoriesAsync(currentUser.RequiredUserId, page, cancellationToken);
 
     [HttpPost("saved-stories")]

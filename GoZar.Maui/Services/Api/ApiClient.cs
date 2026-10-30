@@ -1,4 +1,5 @@
 ﻿using System.Net.Http.Json;
+
 namespace GoZar.Maui.Services.Api;
 
 public sealed class ApiClient(HttpClient httpClient, ApiOptions options)

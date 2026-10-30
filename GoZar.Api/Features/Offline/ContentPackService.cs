@@ -1,6 +1,6 @@
-﻿using GoZar.Api.Models;
-using GoZar.Api.Common.Pagination;
-using GoZar.Api.Features.Offline.Contracts;
+﻿using GoZar.Api.Features.Offline.Contracts;
+using GoZar.Api.Models;
+
 namespace GoZar.Api.Features.Offline;
 
 public sealed class ContentPackService(AppDbContext db, TimeProvider clock)

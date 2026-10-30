@@ -1,4 +1,5 @@
 ﻿using System.Security.Claims;
+
 namespace GoZar.Api.Common.CurrentUser;
 public sealed class CurrentUser(IHttpContextAccessor accessor) : ICurrentUser
 {

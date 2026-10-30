@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using GoZar.Maui.Services;
+using Microsoft.Extensions.Logging;
 
 namespace GoZar.Maui;
 
@@ -19,7 +20,7 @@ public static class MauiProgram
         builder.Logging.AddDebug();
 #endif
 
-        GoZar.Maui.Services.ServiceRegistration.AddGoZarFrontend(builder.Services);
+        ServiceRegistration.AddGoZarFrontend(builder.Services);
         return builder.Build();
     }
 }

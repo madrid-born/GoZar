@@ -1,6 +1,7 @@
-﻿using GoZar.Api.Models;
-using GoZar.Api.Common.Pagination;
+﻿using GoZar.Api.Common.Pagination;
 using GoZar.Api.Features.Stories.Contracts;
+using GoZar.Api.Models;
+
 namespace GoZar.Api.Features.Stories;
 
 public sealed class StoriesService(AppDbContext db, TimeProvider clock)

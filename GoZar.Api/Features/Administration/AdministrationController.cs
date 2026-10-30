@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using GoZar.Api.Common.CurrentUser;
-using GoZar.Api.Common.Pagination;
+﻿using GoZar.Api.Common.Pagination;
 using GoZar.Api.Features.Administration.Contracts;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
 namespace GoZar.Api.Features.Administration;
 
 [ApiController]
@@ -236,7 +236,7 @@ public sealed class AdministrationController(AdministrationService service) : Co
         service.GetFactDraftAsync(id, cancellationToken);
 
     [HttpPost("assets")]
-    public async Task<Contracts.UploadedAssetResponse> UploadAsset(IFormFile file, CancellationToken cancellationToken)
+    public async Task<UploadedAssetResponse> UploadAsset(IFormFile file, CancellationToken cancellationToken)
     {
         // TODO : Choose explicit upload limits and allowed content types before implementing storage.
         await using var stream = file.OpenReadStream();

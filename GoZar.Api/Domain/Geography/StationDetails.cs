@@ -1,5 +1,4 @@
-﻿using GoZar.Api.Domain;
-namespace GoZar.Api.Domain.Geography;
+﻿namespace GoZar.Api.Domain.Geography;
 
 public sealed class StationDetails : DomainEntity
 {

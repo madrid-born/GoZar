@@ -1,5 +1,4 @@
-﻿using GoZar.Api.Domain;
-namespace GoZar.Api.Domain.Learning;
+﻿namespace GoZar.Api.Domain.Learning;
 
 public sealed class SessionItem : DomainEntity
 {

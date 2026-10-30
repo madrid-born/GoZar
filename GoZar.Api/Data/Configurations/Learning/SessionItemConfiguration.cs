@@ -1,6 +1,8 @@
-﻿using GoZar.Api.Domain.Learning;
+﻿using GoZar.Api.Domain.Curriculum;
+using GoZar.Api.Domain.Learning;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 namespace GoZar.Api.Data.Configurations.Learning;
 
 public sealed class SessionItemConfiguration : IEntityTypeConfiguration<SessionItem>
@@ -12,9 +14,9 @@ public sealed class SessionItemConfiguration : IEntityTypeConfiguration<SessionI
         builder.Property(x => x.RowVersion).IsRowVersion();
         builder.Property(x => x.ItemKind).HasMaxLength(200).IsRequired();
         builder.HasIndex(x => new { x.LearningSessionId, x.Position }).IsUnique();
-        builder.HasOne<GoZar.Api.Domain.Learning.LearningSession>().WithMany().HasForeignKey(x => x.LearningSessionId).OnDelete(DeleteBehavior.Restrict);
-        builder.HasOne<GoZar.Api.Domain.Curriculum.Lesson>().WithMany().HasForeignKey(x => x.LessonId).OnDelete(DeleteBehavior.Restrict);
-        builder.HasOne<GoZar.Api.Domain.Learning.LearningTarget>().WithMany().HasForeignKey(x => x.LearningTargetId).OnDelete(DeleteBehavior.Restrict);
+        builder.HasOne<LearningSession>().WithMany().HasForeignKey(x => x.LearningSessionId).OnDelete(DeleteBehavior.Restrict);
+        builder.HasOne<Lesson>().WithMany().HasForeignKey(x => x.LessonId).OnDelete(DeleteBehavior.Restrict);
+        builder.HasOne<LearningTarget>().WithMany().HasForeignKey(x => x.LearningTargetId).OnDelete(DeleteBehavior.Restrict);
         // TODO : Review lengths, uniqueness, same-city relationships and delete policies before generating migrations.
     }
 }

@@ -1,6 +1,7 @@
 ﻿using GoZar.Api.Domain.Learning;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 namespace GoZar.Api.Data.Configurations.Learning;
 
 public sealed class ExerciseConfiguration : IEntityTypeConfiguration<Exercise>
@@ -17,8 +18,8 @@ public sealed class ExerciseConfiguration : IEntityTypeConfiguration<Exercise>
         builder.Property(x => x.CorrectAnswerJson).HasColumnType("nvarchar(max)").IsRequired();
         builder.Property(x => x.Explanation).HasColumnType("nvarchar(max)");
         builder.HasIndex(x => x.SessionItemId).IsUnique();
-        builder.HasOne<GoZar.Api.Domain.Learning.SessionItem>().WithMany().HasForeignKey(x => x.SessionItemId).OnDelete(DeleteBehavior.Restrict);
-        builder.HasOne<GoZar.Api.Domain.Learning.LearningTarget>().WithMany().HasForeignKey(x => x.LearningTargetId).OnDelete(DeleteBehavior.Restrict);
+        builder.HasOne<SessionItem>().WithMany().HasForeignKey(x => x.SessionItemId).OnDelete(DeleteBehavior.Restrict);
+        builder.HasOne<LearningTarget>().WithMany().HasForeignKey(x => x.LearningTargetId).OnDelete(DeleteBehavior.Restrict);
         // TODO : Review lengths, uniqueness, same-city relationships and delete policies before generating migrations.
     }
 }

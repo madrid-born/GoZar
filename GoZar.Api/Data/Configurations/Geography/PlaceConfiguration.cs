@@ -1,6 +1,7 @@
 ﻿using GoZar.Api.Domain.Geography;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 namespace GoZar.Api.Data.Configurations.Geography;
 
 public sealed class PlaceConfiguration : IEntityTypeConfiguration<Place>
@@ -18,7 +19,7 @@ public sealed class PlaceConfiguration : IEntityTypeConfiguration<Place>
         builder.Property(x => x.Longitude).HasPrecision(9, 6);
         builder.Property(x => x.ExternalId).HasMaxLength(200);
         builder.HasIndex(x => new { x.CityId, x.Slug }).IsUnique();
-        builder.HasOne<GoZar.Api.Domain.Geography.City>().WithMany().HasForeignKey(x => x.CityId).OnDelete(DeleteBehavior.Restrict);
+        builder.HasOne<City>().WithMany().HasForeignKey(x => x.CityId).OnDelete(DeleteBehavior.Restrict);
         // TODO : Review lengths, uniqueness, same-city relationships and delete policies before generating migrations.
     }
 }

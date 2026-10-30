@@ -1,6 +1,7 @@
 ﻿using GoZar.Api.Domain.Content;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 namespace GoZar.Api.Data.Configurations.Content;
 
 public sealed class ContentPackAssetConfiguration : IEntityTypeConfiguration<ContentPackAsset>
@@ -14,7 +15,7 @@ public sealed class ContentPackAssetConfiguration : IEntityTypeConfiguration<Con
         builder.Property(x => x.StorageKey).HasMaxLength(1000).IsRequired();
         builder.Property(x => x.Sha256).HasMaxLength(200).IsRequired();
         builder.HasIndex(x => new { x.ContentPackId, x.RelativePath }).IsUnique();
-        builder.HasOne<GoZar.Api.Domain.Content.ContentPack>().WithMany().HasForeignKey(x => x.ContentPackId).OnDelete(DeleteBehavior.Restrict);
+        builder.HasOne<ContentPack>().WithMany().HasForeignKey(x => x.ContentPackId).OnDelete(DeleteBehavior.Restrict);
         // TODO : Review lengths, uniqueness, same-city relationships and delete policies before generating migrations.
     }
 }

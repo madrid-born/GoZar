@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+
 namespace GoZar.Api.Common.Errors;
 
 public sealed class ApiExceptionHandler(IProblemDetailsService problems) : IExceptionHandler

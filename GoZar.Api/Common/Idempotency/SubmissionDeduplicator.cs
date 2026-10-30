@@ -1,5 +1,6 @@
-﻿using GoZar.Api.Models;
-using GoZar.Api.Features.Learning.Contracts;
+﻿using GoZar.Api.Features.Learning.Contracts;
+using GoZar.Api.Models;
+
 namespace GoZar.Api.Common.Idempotency;
 
 public sealed class SubmissionDeduplicator(AppDbContext db)

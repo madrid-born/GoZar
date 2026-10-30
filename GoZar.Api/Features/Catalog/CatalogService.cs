@@ -1,6 +1,7 @@
-﻿using GoZar.Api.Models;
-using GoZar.Api.Common.Pagination;
+﻿using GoZar.Api.Common.Pagination;
 using GoZar.Api.Features.Catalog.Contracts;
+using GoZar.Api.Models;
+
 namespace GoZar.Api.Features.Catalog;
 
 public sealed class CatalogService(AppDbContext db, TimeProvider clock)

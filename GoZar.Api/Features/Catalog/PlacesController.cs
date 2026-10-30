@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using GoZar.Api.Common.CurrentUser;
-using GoZar.Api.Common.Pagination;
+﻿using GoZar.Api.Common.Pagination;
 using GoZar.Api.Features.Catalog.Contracts;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
 namespace GoZar.Api.Features.Catalog;
 
 [ApiController]

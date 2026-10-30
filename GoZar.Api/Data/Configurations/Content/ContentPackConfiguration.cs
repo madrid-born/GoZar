@@ -1,6 +1,8 @@
 ﻿using GoZar.Api.Domain.Content;
+using GoZar.Api.Domain.Geography;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 namespace GoZar.Api.Data.Configurations.Content;
 
 public sealed class ContentPackConfiguration : IEntityTypeConfiguration<ContentPack>
@@ -14,7 +16,7 @@ public sealed class ContentPackConfiguration : IEntityTypeConfiguration<ContentP
         builder.Property(x => x.StorageKey).HasMaxLength(1000);
         builder.Property(x => x.Sha256).HasMaxLength(200);
         builder.HasIndex(x => new { x.CityId, x.Version }).IsUnique();
-        builder.HasOne<GoZar.Api.Domain.Geography.City>().WithMany().HasForeignKey(x => x.CityId).OnDelete(DeleteBehavior.Restrict);
+        builder.HasOne<City>().WithMany().HasForeignKey(x => x.CityId).OnDelete(DeleteBehavior.Restrict);
         // TODO : Review lengths, uniqueness, same-city relationships and delete policies before generating migrations.
     }
 }

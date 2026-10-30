@@ -1,6 +1,7 @@
 ﻿using GoZar.Api.Domain.Content;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 namespace GoZar.Api.Data.Configurations.Content;
 
 public sealed class ContentSourceConfiguration : IEntityTypeConfiguration<ContentSource>

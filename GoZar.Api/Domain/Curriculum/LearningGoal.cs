@@ -1,5 +1,4 @@
-﻿using GoZar.Api.Domain;
-namespace GoZar.Api.Domain.Curriculum;
+﻿namespace GoZar.Api.Domain.Curriculum;
 
 public sealed class LearningGoal : DomainEntity
 {

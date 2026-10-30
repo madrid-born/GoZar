@@ -1,6 +1,6 @@
-﻿using GoZar.Api.Models;
-using GoZar.Api.Common.Pagination;
-using GoZar.Api.Features.Onboarding.Contracts;
+﻿using GoZar.Api.Features.Onboarding.Contracts;
+using GoZar.Api.Models;
+
 namespace GoZar.Api.Features.Onboarding;
 
 public sealed class OnboardingService(AppDbContext db, TimeProvider clock)

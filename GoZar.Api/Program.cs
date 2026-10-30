@@ -1,14 +1,16 @@
-﻿using GoZar.Api.Models;
+﻿using GoZar.Api.Configuration;
+using GoZar.Api.Models;
 using GoZar.Api.Services;
+using Microsoft.AspNetCore.Authentication.BearerToken;
 using Microsoft.AspNetCore.HttpOverrides;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
-GoZar.Api.Configuration.ServiceRegistration.AddGoZarLearning(builder.Services, builder.Configuration);
+builder.Services.AddGoZarLearning(builder.Configuration);
 builder.Services.AddAuthorization();
 builder.Services.AddIdentityApiEndpoints<ApplicationUser>(options =>
     {
@@ -31,7 +33,7 @@ if (builder.Environment.IsDevelopment())
     });
 }
 builder.Services.AddTransient<IEmailSender<ApplicationUser>, IdentityEmailSender>();
-builder.Services.Configure<Microsoft.AspNetCore.Authentication.BearerToken.BearerTokenOptions>(
+builder.Services.Configure<BearerTokenOptions>(
     IdentityConstants.BearerScheme, options =>
     {
         options.BearerTokenExpiration = TimeSpan.FromMinutes(15);

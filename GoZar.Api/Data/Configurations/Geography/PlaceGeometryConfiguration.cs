@@ -1,6 +1,7 @@
 ﻿using GoZar.Api.Domain.Geography;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 namespace GoZar.Api.Data.Configurations.Geography;
 
 public sealed class PlaceGeometryConfiguration : IEntityTypeConfiguration<PlaceGeometry>
@@ -14,7 +15,7 @@ public sealed class PlaceGeometryConfiguration : IEntityTypeConfiguration<PlaceG
         builder.Property(x => x.GeoJson).HasColumnType("nvarchar(max)").IsRequired();
         builder.Property(x => x.SourceAttribution).HasColumnType("nvarchar(max)");
         builder.HasIndex(x => new { x.PlaceId, x.Version }).IsUnique();
-        builder.HasOne<GoZar.Api.Domain.Geography.Place>().WithMany().HasForeignKey(x => x.PlaceId).OnDelete(DeleteBehavior.Restrict);
+        builder.HasOne<Place>().WithMany().HasForeignKey(x => x.PlaceId).OnDelete(DeleteBehavior.Restrict);
         // TODO : Review lengths, uniqueness, same-city relationships and delete policies before generating migrations.
     }
 }

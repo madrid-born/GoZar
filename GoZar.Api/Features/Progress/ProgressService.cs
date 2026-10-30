@@ -1,6 +1,6 @@
-﻿using GoZar.Api.Models;
-using GoZar.Api.Common.Pagination;
-using GoZar.Api.Features.Progress.Contracts;
+﻿using GoZar.Api.Features.Progress.Contracts;
+using GoZar.Api.Models;
+
 namespace GoZar.Api.Features.Progress;
 
 public sealed class ProgressService(AppDbContext db, TimeProvider clock)

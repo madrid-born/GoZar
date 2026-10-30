@@ -1,6 +1,7 @@
 ﻿using GoZar.Api.Domain.Curriculum;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 namespace GoZar.Api.Data.Configurations.Curriculum;
 
 public sealed class LearningGoalConfiguration : IEntityTypeConfiguration<LearningGoal>

@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using GoZar.Api.Common.CurrentUser;
-using GoZar.Api.Common.Pagination;
+﻿using GoZar.Api.Common.CurrentUser;
 using GoZar.Api.Features.Learning.Contracts;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
 namespace GoZar.Api.Features.Learning;
 
 [ApiController]

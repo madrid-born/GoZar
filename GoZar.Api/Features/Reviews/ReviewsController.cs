@@ -1,8 +1,9 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using GoZar.Api.Common.CurrentUser;
-using GoZar.Api.Common.Pagination;
+﻿using GoZar.Api.Common.CurrentUser;
+using GoZar.Api.Features.Learning.Contracts;
 using GoZar.Api.Features.Reviews.Contracts;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
 namespace GoZar.Api.Features.Reviews;
 
 [ApiController]
@@ -16,6 +17,6 @@ public sealed class ReviewsController(ReviewService service, ICurrentUser curren
         service.GetDueAsync(currentUser.RequiredUserId, cityId, cancellationToken);
 
     [HttpPost("sessions")]
-    public Task<GoZar.Api.Features.Learning.Contracts.LearningSessionResponse> StartReviewSession(GoZar.Api.Features.Learning.Contracts.StartSessionRequest request, CancellationToken cancellationToken) =>
+    public Task<LearningSessionResponse> StartReviewSession(StartSessionRequest request, CancellationToken cancellationToken) =>
         service.StartReviewSessionAsync(currentUser.RequiredUserId, request, cancellationToken);
 }

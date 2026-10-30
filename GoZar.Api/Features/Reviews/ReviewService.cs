@@ -1,6 +1,7 @@
-﻿using GoZar.Api.Models;
-using GoZar.Api.Common.Pagination;
+﻿using GoZar.Api.Features.Learning.Contracts;
 using GoZar.Api.Features.Reviews.Contracts;
+using GoZar.Api.Models;
+
 namespace GoZar.Api.Features.Reviews;
 
 public sealed class ReviewService(AppDbContext db, TimeProvider clock)
@@ -16,7 +17,7 @@ public sealed class ReviewService(AppDbContext db, TimeProvider clock)
         throw new NotImplementedException("ReviewService.GetDueAsync");
     }
 
-    public Task<GoZar.Api.Features.Learning.Contracts.LearningSessionResponse> StartReviewSessionAsync(string userId, GoZar.Api.Features.Learning.Contracts.StartSessionRequest request, CancellationToken cancellationToken = default)
+    public Task<LearningSessionResponse> StartReviewSessionAsync(string userId, StartSessionRequest request, CancellationToken cancellationToken = default)
     {
         // TODO : Implement StartReviewSession with validation, ownership/publication checks and cancellation.
         // TODO : Coordinate writes transactionally; never return success before persistence commits.
