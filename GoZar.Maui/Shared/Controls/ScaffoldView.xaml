@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:GoZar.Maui.Shared.ViewModels" xmlns:local="clr-namespace:GoZar.Maui.Shared.Controls" x:Class="GoZar.Maui.Shared.Controls.ScaffoldView"
+             x:DataType="vm:BaseViewModel" x:Name="Root" FlowDirection="RightToLeft">
+    <VerticalStackLayout Padding="24" Spacing="20">
+        <Image Source="gozar_logo.png" HeightRequest="65" HorizontalOptions="Start" SemanticProperties.Description="گذر" />
+        <Label Text="{Binding Title}" Style="{StaticResource HeadingLabel}" />
+        <Label Text="{Binding Description}" Style="{StaticResource BodyLabel}" />
+        <Border Style="{StaticResource SurfaceBorder}"><VerticalStackLayout Spacing="10">
+            <Label Text="ساختار اولیه · هنوز به API متصل نیست" Style="{StaticResource SectionLabel}" />
+            <Label Text="{Binding TodoMessage}" FlowDirection="LeftToRight" Style="{StaticResource CaptionLabel}" />
+        </VerticalStackLayout></Border>
+        <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}" />
+        <Label Text="{Binding ErrorMessage}" TextColor="{StaticResource ErrorColor}" />
+        <VerticalStackLayout Spacing="12" BindableLayout.ItemsSource="{Binding Links}">
+            <BindableLayout.ItemTemplate><DataTemplate x:DataType="vm:NavigationLink">
+                <Button Text="{Binding Label}" CommandParameter="{Binding Route}"
+                        Command="{Binding NavigationCommand, Source={x:Reference Root}, x:DataType=local:ScaffoldView}" />
+            </DataTemplate></BindableLayout.ItemTemplate>
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentView>

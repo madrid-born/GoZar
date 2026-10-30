@@ -19,6 +19,7 @@ public static class MauiProgram
         builder.Logging.AddDebug();
 #endif
 
+        GoZar.Maui.Services.ServiceRegistration.AddGoZarFrontend(builder.Services);
         return builder.Build();
     }
 }

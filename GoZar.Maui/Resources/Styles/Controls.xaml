@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Style x:Key="SurfaceBorder" TargetType="Border">
+        <Setter Property="Padding" Value="18" /><Setter Property="StrokeShape" Value="RoundRectangle 22" />
+        <Setter Property="Stroke" Value="{AppThemeBinding Light={StaticResource Sand}, Dark={StaticResource MutedText}}" />
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Sand}, Dark={StaticResource DarkSurface}}" />
+    </Style>
+</ResourceDictionary>

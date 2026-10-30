@@ -5,12 +5,12 @@
 
     <!-- Note: For Android please see also Platforms\Android\Resources\values\colors.xml -->
 
-    <Color x:Key="Primary">#512BD4</Color>
-    <Color x:Key="PrimaryDark">#ac99ea</Color>
+    <Color x:Key="Primary">#B85E3C</Color>
+    <Color x:Key="PrimaryDark">#D58663</Color>
     <Color x:Key="PrimaryDarkText">#242424</Color>
-    <Color x:Key="Secondary">#DFD8F7</Color>
+    <Color x:Key="Secondary">#F3E9DD</Color>
     <Color x:Key="SecondaryDarkText">#9880e5</Color>
-    <Color x:Key="Tertiary">#2B0B98</Color>
+    <Color x:Key="Tertiary">#512D1D</Color>
 
     <Color x:Key="White">White</Color>
     <Color x:Key="Black">Black</Color>
@@ -41,4 +41,12 @@
     <SolidColorBrush x:Key="Gray600Brush" Color="{StaticResource Gray600}"/>
     <SolidColorBrush x:Key="Gray900Brush" Color="{StaticResource Gray900}"/>
     <SolidColorBrush x:Key="Gray950Brush" Color="{StaticResource Gray950}"/>
+    <Color x:Key="Terracotta">#B85E3C</Color>
+    <Color x:Key="Chocolate">#512D1D</Color>
+    <Color x:Key="Ivory">#FFFCF4</Color>
+    <Color x:Key="Sand">#F3E9DD</Color>
+    <Color x:Key="MutedText">#79675C</Color>
+    <Color x:Key="DarkBackground">#26221F</Color>
+    <Color x:Key="DarkSurface">#312A25</Color>
+    <Color x:Key="ErrorColor">#AD4037</Color>
 </ResourceDictionary>

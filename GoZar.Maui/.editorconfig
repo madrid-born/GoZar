@@ -1,0 +1,4 @@
+# Explicit encoding for MAUI source files containing Persian text.
+# Keep this scoped to the frontend project.
+[*.{cs,xaml,resx}]
+charset = utf-8-bom

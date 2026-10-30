@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GoZar.Maui.Features.Learning.Exercises.RouteOrderingView" FlowDirection="RightToLeft">
+    <!-- TODO : Bind server-provided route steps and support accessible reorder commands; this is not navigation routing. -->
+    <Label Text="ساختار تمرین · RouteOrdering" Style="{StaticResource BodyLabel}" />
+</ContentView>

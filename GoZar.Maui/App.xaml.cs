@@ -1,16 +1,20 @@
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 
 namespace GoZar.Maui;
 
 public partial class App : Application
 {
-    public App()
+    private readonly AppShell _shell;
+
+    public App(AppShell shell)
     {
         InitializeComponent();
+        _shell = shell;
     }
 
     protected override Window CreateWindow(IActivationState? activationState)
     {
-        return new Window(new AppShell()) { Title = "GoZar" };
+        // TODO : Restore a validated API session before selecting onboarding or main tabs.
+        return new Window(_shell) { Title = "GoZar" };
     }
 }
